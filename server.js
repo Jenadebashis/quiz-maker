@@ -24,6 +24,7 @@ db.serialize(() => {
     `CREATE TABLE IF NOT EXISTS sessions (
       session TEXT PRIMARY KEY,
       token TEXT,
+      name TEXT,
       start_time INTEGER,
       submit_time INTEGER,
       duration INTEGER,
@@ -34,6 +35,15 @@ db.serialize(() => {
       suspicious INTEGER DEFAULT 0
     )`
   );
+  // ensure legacy DBs get a `name` column added if missing
+  db.all("PRAGMA table_info(sessions)", [], (err, cols) => {
+    if(!err && Array.isArray(cols)){
+      const hasName = cols.some(c => c.name === 'name');
+      if(!hasName){
+        db.run(`ALTER TABLE sessions ADD COLUMN name TEXT`, () => {});
+      }
+    }
+  });
 });
 
 function loadQuestions(){
@@ -54,16 +64,17 @@ app.post('/api/start', (req, res) => {
   const startTime = Date.now();
   const ip = req.ip || req.headers['x-forwarded-for'] || '';
   const ua = req.get('User-Agent') || '';
+  const name = (req.body && typeof req.body.name === 'string') ? req.body.name.trim() : '';
 
   db.run(
-    `INSERT INTO sessions(session, token, start_time, ip, user_agent) VALUES (?,?,?,?,?)`,
-    [session, token, startTime, ip, ua],
+    `INSERT INTO sessions(session, token, name, start_time, ip, user_agent) VALUES (?,?,?,?,?,?)`,
+    [session, token, name, startTime, ip, ua],
     function(err){
       if(err){
         console.error('DB insert start error', err);
         return res.status(500).json({ error: 'internal' });
       }
-      res.json({ session, token, startTime });
+      res.json({ session, token, startTime, name });
     }
   );
 });
@@ -109,7 +120,8 @@ app.post('/api/submit', (req, res) => {
       [submitTime, duration, score, JSON.stringify(answers), suspicious, session],
       function(err){
         if(err) return res.status(500).json({ error: 'db_update' });
-        res.json({ ok:true, score, total: questions.length, durationMs: duration, suspicious });
+        // include stored name in response for immediate UI display
+        res.json({ ok:true, score, total: questions.length, durationMs: duration, suspicious, name: row.name || null });
       }
     );
   });
@@ -117,7 +129,7 @@ app.post('/api/submit', (req, res) => {
 
 // simple admin listing (not authenticated) — for local use only
 app.get('/api/results', (req, res) => {
-  db.all(`SELECT session, start_time, submit_time, duration, score, suspicious FROM sessions ORDER BY start_time DESC LIMIT 200`, [], (err, rows) => {
+  db.all(`SELECT session, name, start_time, submit_time, duration, score, suspicious FROM sessions ORDER BY start_time DESC LIMIT 200`, [], (err, rows) => {
     if(err) return res.status(500).json({ error: 'db' });
     res.json(rows);
   });
@@ -127,12 +139,13 @@ app.get('/api/results', (req, res) => {
 app.get('/api/session/:id', (req, res) => {
   const id = req.params.id;
   const token = req.query.token || req.get('x-session-token') || null;
-  db.get(`SELECT session, start_time, submit_time, duration, score, suspicious, token FROM sessions WHERE session = ?`, [id], (err, row) => {
+  db.get(`SELECT session, name, start_time, submit_time, duration, score, suspicious, token FROM sessions WHERE session = ?`, [id], (err, row) => {
     if(err) return res.status(500).json({ error: 'db_error' });
     if(!row) return res.status(404).json({ exists: false });
     const token_valid = token && token === row.token;
     res.json({
       exists: true,
+      name: row.name || null,
       start_time: row.start_time,
       submitted: !!row.submit_time,
       submit_time: row.submit_time,

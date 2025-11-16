@@ -11,6 +11,16 @@ let offlineMode = false; // if server unavailable, operate in offline/local-only
 
 const el = id => document.getElementById(id);
 
+function escapeHtml(str){
+  if(!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 async function loadQuestions(){
   const res = await fetch('questions.json');
   questions = await res.json();
@@ -187,6 +197,8 @@ function showResult(score){
   let html = '';
   if(typeof score === 'object'){
     const s = score;
+    const displayName = s.name || (localStorage.getItem && localStorage.getItem('quiz_name')) || '';
+    if(displayName) html += `<p><strong>Name:</strong> ${escapeHtml(displayName)}</p>`;
     html += `<h2>Result</h2><p>Score: ${s.score} / ${s.total}</p>`;
     if(s.suspicious) html += `<p style="color:darkorange">Note: submission flagged as suspicious</p>`;
     if(s.offline) html += `<p style="color:gray">(Calculated locally — server unavailable)</p>`;
@@ -211,6 +223,11 @@ function showResult(score){
 document.addEventListener('DOMContentLoaded', async ()=>{
   await loadQuestions();
   loadProgress();
+  // restore previously-entered name if present
+  try{
+    const storedName = localStorage.getItem('quiz_name');
+    if(storedName && el('userName')) el('userName').value = storedName;
+  }catch(e){}
   // bind buttons
   el('startBtn').addEventListener('click', ()=>{
     startQuiz();
@@ -326,11 +343,14 @@ async function startQuiz(){
   }
 
   try{
-    const res = await fetch('/api/start', { method: 'POST' });
+    const name = (el('userName') && el('userName').value.trim()) || '';
+    const res = await fetch('/api/start', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name }) });
     if(!res.ok) throw new Error('start failed');
     const body = await res.json();
     sessionId = body.session;
     sessionToken = body.token;
+    // persist name client-side for later display
+    try{ localStorage.setItem('quiz_name', body.name || name); }catch(e){}
     // persist session + answers
     persistSessionToStorage();
     // start timer using client's requested totalTime
