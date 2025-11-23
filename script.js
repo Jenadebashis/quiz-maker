@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
 
 async function startQuiz(){
   // enforce fixed 25-minute timer regardless of any UI input
-  totalTime = 1500;
+  totalTime = 3600; // 1 hour
   el('setup').classList.add('hidden');
   el('quizArea').classList.remove('hidden');
   renderQuestion(0);
