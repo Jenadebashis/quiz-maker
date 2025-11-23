@@ -1,677 +1,387 @@
 [
   {
     "question": "Who is credited with the discovery of the cell in 1665?",
-    "options": [
-      "Robert Brown",
-      "Robert Hooke",
-      "Antonie van Leeuwenhoek",
-      "Schwann"
-    ],
+    "options": ["Robert Brown","Robert Hooke","Antonie van Leeuwenhoek","Schwann"],
     "answerIndex": 1
   },
   {
     "question": "Which organelle is known as the 'Powerhouse of the cell'?",
-    "options": [
-      "Nucleus",
-      "Ribosome",
-      "Mitochondria",
-      "Lysosome"
-    ],
+    "options": ["Nucleus","Ribosome","Mitochondria","Lysosome"],
     "answerIndex": 2
   },
   {
     "question": "The fundamental structural and functional unit of life is:",
-    "options": [
-      "Tissue",
-      "Organ",
-      "Cell",
-      "Organism"
-    ],
+    "options": ["Tissue","Organ","Cell","Organism"],
     "answerIndex": 2
   },
   {
     "question": "Which component is present in plant cells but absent in animal cells?",
-    "options": [
-      "Cell Membrane",
-      "Cytoplasm",
-      "Cell Wall",
-      "Nucleus"
-    ],
+    "options": ["Cell Membrane","Cytoplasm","Cell Wall","Nucleus"],
     "answerIndex": 2
   },
   {
     "question": "Ribosomes are the site for synthesis of:",
-    "options": [
-      "Fats",
-      "Proteins",
-      "Starch",
-      "Lipids"
-    ],
+    "options": ["Fats","Proteins","Starch","Lipids"],
     "answerIndex": 1
   },
   {
     "question": "The 'Suicide bags' of the cell are:",
-    "options": [
-      "Lysosomes",
-      "Golgi apparatus",
-      "Plastids",
-      "Vacuoles"
-    ],
+    "options": ["Lysosomes","Golgi apparatus","Plastids","Vacuoles"],
     "answerIndex": 0
   },
   {
     "question": "Prokaryotic cells lack a well-defined:",
-    "options": [
-      "Cell wall",
-      "Ribosome",
-      "Nuclear membrane",
-      "Cytoplasm"
-    ],
+    "options": ["Cell wall","Ribosome","Nuclear membrane","Cytoplasm"],
     "answerIndex": 2
   },
   {
     "question": "Chromosomes are located inside the:",
-    "options": [
-      "Golgi body",
-      "Nucleus",
-      "Vacuole",
-      "ER"
-    ],
+    "options": ["Golgi body","Nucleus","Vacuole","ER"],
     "answerIndex": 1
   },
   {
     "question": "Which plastid is responsible for photosynthesis?",
-    "options": [
-      "Chromoplast",
-      "Leucoplast",
-      "Chloroplast",
-      "Amyloplast"
-    ],
+    "options": ["Chromoplast","Leucoplast","Chloroplast","Amyloplast"],
     "answerIndex": 2
   },
   {
     "question": "The fluid content inside the plasma membrane is called:",
-    "options": [
-      "Nucleoplasm",
-      "Cytoplasm",
-      "Protoplasm",
-      "Serum"
-    ],
+    "options": ["Nucleoplasm","Cytoplasm","Protoplasm","Serum"],
     "answerIndex": 1
   },
   {
     "question": "A reaction in which two or more substances combine to form a single product is called:",
-    "options": [
-      "Decomposition",
-      "Combination",
-      "Displacement",
-      "Double displacement"
-    ],
+    "options": ["Decomposition","Combination","Displacement","Double displacement"],
     "answerIndex": 1
   },
   {
     "question": "In the equation Mg + O₂ → MgO, the balanced coefficient for MgO is:",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
+    "options": ["1","2","3","4"],
     "answerIndex": 1
   },
   {
     "question": "The chemical formula for rust is roughly:",
-    "options": [
-      "Fe₂O₃·xH₂O",
-      "FeO",
-      "Fe₃O₄",
-      "Fe(OH)₂"
-    ],
+    "options": ["Fe₂O₃·xH₂O","FeO","Fe₃O₄","Fe(OH)₂"],
     "answerIndex": 0
   },
   {
     "question": "Burning of magnesium ribbon is an example of:",
-    "options": [
-      "Physical change",
-      "Chemical change",
-      "Reversible change",
-      "Sublimation"
-    ],
+    "options": ["Physical change","Chemical change","Reversible change","Sublimation"],
     "answerIndex": 1
   },
   {
     "question": "What does the symbol (s) indicate in a chemical equation?",
-    "options": [
-      "Solution",
-      "Solid",
-      "Gas",
-      "Soluble"
-    ],
+    "options": ["Solution","Solid","Gas","Soluble"],
     "answerIndex": 1
   },
   {
     "question": "Which law states that mass can neither be created nor destroyed in a chemical reaction?",
-    "options": [
-      "Law of Constant Proportions",
-      "Law of Conservation of Mass",
-      "Avogadro's Law",
-      "Boyle's Law"
-    ],
+    "options": ["Law of Constant Proportions","Law of Conservation of Mass","Avogadro's Law","Boyle's Law"],
     "answerIndex": 1
   },
   {
     "question": "Respiration is an example of which type of reaction?",
-    "options": [
-      "Endothermic",
-      "Exothermic",
-      "Decomposition",
-      "Reduction"
-    ],
+    "options": ["Endothermic","Exothermic","Decomposition","Reduction"],
     "answerIndex": 1
   },
   {
     "question": "Identify the reactant in: C + O₂ → CO₂.",
-    "options": [
-      "CO₂ only",
-      "C and O₂",
-      "Heat",
-      "Carbon only"
-    ],
+    "options": ["CO₂ only","C and O₂","Heat","Carbon only"],
     "answerIndex": 1
   },
   {
     "question": "Changes that involve the absorption of energy are called:",
-    "options": [
-      "Exothermic",
-      "Endothermic",
-      "Displacement",
-      "Oxidation"
-    ],
+    "options": ["Exothermic","Endothermic","Displacement","Oxidation"],
     "answerIndex": 1
   },
   {
     "question": "The insoluble substance formed during a chemical reaction is called a:",
-    "options": [
-      "Solution",
-      "Precipitate",
-      "Solute",
-      "Solvent"
-    ],
+    "options": ["Solution","Precipitate","Solute","Solvent"],
     "answerIndex": 1
   },
   {
     "question": "A set containing no elements is called:",
-    "options": [
-      "Singleton set",
-      "Finite set",
-      "Null set",
-      "Infinite set"
-    ],
+    "options": ["Singleton set","Finite set","Null set","Infinite set"],
     "answerIndex": 2
   },
   {
     "question": "If A = {1, 2, 3}, what is n(A)?",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "6"
-    ],
+    "options": ["1","2","3","6"],
     "answerIndex": 2
   },
   {
     "question": "The symbol ∈ stands for:",
-    "options": [
-      "Subset of",
-      "Belongs to",
-      "Union",
-      "Intersection"
-    ],
+    "options": ["Subset of","Belongs to","Union","Intersection"],
     "answerIndex": 1
   },
   {
     "question": "If set A contains all elements of set B, then B is a ______ of A.",
-    "options": [
-      "Superset",
-      "Power set",
-      "Subset",
-      "Complement"
-    ],
+    "options": ["Superset","Power set","Subset","Complement"],
     "answerIndex": 2
   },
   {
     "question": "Which of the following is a singleton set?",
-    "options": [
-      "{ ϕ }",
-      "{ }",
-      "{ 1, 2 }",
-      "ϕ"
-    ],
+    "options": ["{ ϕ }","{ }","{ 1, 2 }","ϕ"],
     "answerIndex": 0
   },
   {
     "question": "A ∪ B represents elements that are in:",
-    "options": [
-      "A only",
-      "B only",
-      "Both A and B (common)",
-      "A or B or both"
-    ],
+    "options": ["A only","B only","Both A and B (common)","A or B or both"],
     "answerIndex": 3
   },
   {
     "question": "A relation R from set A to set B is a subset of:",
-    "options": [
-      "A ∪ B",
-      "A ∩ B",
-      "A × B (Cartesian Product)",
-      "P(A)"
-    ],
+    "options": ["A ∪ B","A ∩ B","A × B (Cartesian Product)","P(A)"],
     "answerIndex": 2
   },
   {
     "question": "In a function f: A → B, the set A is called the:",
-    "options": [
-      "Range",
-      "Co-domain",
-      "Domain",
-      "Image"
-    ],
+    "options": ["Range","Co-domain","Domain","Image"],
     "answerIndex": 2
   },
   {
     "question": "If f(x) = 2x + 1, what is f(2)?",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
+    "options": ["3","4","5","6"],
     "answerIndex": 2
   },
   {
     "question": "Two sets are called disjoint if their intersection is:",
-    "options": [
-      "The universal set",
-      "The null set",
-      "A singleton set",
-      "Infinite"
-    ],
+    "options": ["The universal set","The null set","A singleton set","Infinite"],
     "answerIndex": 1
   },
+
   {
     "question": "Which organelle is responsible for the packaging and dispatching of material synthesized by the ER?",
-    "options": [
-      "Ribosome",
-      "Golgi Apparatus",
-      "Lysosome",
-      "Vacuole"
-    ],
+    "options": ["Ribosome","Golgi Apparatus","Lysosome","Vacuole"],
     "answerIndex": 1
   },
   {
     "question": "The 'Rough' Endoplasmic Reticulum looks rough because of the attachment of:",
-    "options": [
-      "Lysosomes",
-      "Ribosomes",
-      "Vacuoles",
-      "Plastids"
-    ],
+    "options": ["Lysosomes","Ribosomes","Vacuoles","Plastids"],
     "answerIndex": 1
   },
   {
     "question": "Cell wall of fungi is made up of:",
-    "options": [
-      "Cellulose",
-      "Chitin",
-      "Pectin",
-      "Peptidoglycan"
-    ],
+    "options": ["Cellulose","Chitin","Pectin","Peptidoglycan"],
     "answerIndex": 1
   },
   {
     "question": "Select the correct path of protein transport:",
-    "options": [
-      "Golgi → ER → Lysosome",
-      "ER → Golgi → Vesicles/Plasma Membrane",
-      "Nucleus → Vacuole → Golgi",
-      "Mitochondria → ER → Golgi"
-    ],
+    "options": ["Golgi → ER → Lysosome","ER → Golgi → Vesicles/Plasma Membrane","Nucleus → Vacuole → Golgi","Mitochondria → ER → Golgi"],
     "answerIndex": 1
   },
   {
     "question": "In a hypotonic solution, an animal cell will:",
-    "options": [
-      "Shrink (Plasmolysis)",
-      "Swell and burst",
-      "Remain the same",
-      "Lose water"
-    ],
+    "options": ["Shrink (Plasmolysis)","Swell and burst","Remain the same","Lose water"],
     "answerIndex": 1
   },
   {
     "question": "ATP synthesis occurs in which part of the mitochondria?",
-    "options": [
-      "Outer membrane",
-      "Matrix",
-      "Cristae (Inner membrane)",
-      "Inter-membrane space"
-    ],
+    "options": ["Outer membrane","Matrix","Cristae (Inner membrane)","Inter-membrane space"],
     "answerIndex": 2
   },
   {
     "question": "Which of the following is non-membranous?",
-    "options": [
-      "Ribosome",
-      "Lysosome",
-      "Vacuole",
-      "ER"
-    ],
+    "options": ["Ribosome","Lysosome","Vacuole","ER"],
     "answerIndex": 0
   },
   {
     "question": "Balance the equation: Fe + H₂O → Fe₃O₄ + H₂. The coefficient of Fe is:",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
+    "options": ["1","2","3","4"],
     "answerIndex": 2
   },
   {
     "question": "In the reaction ZnO + C → Zn + CO, which substance is oxidized?",
-    "options": [
-      "ZnO",
-      "Zn",
-      "C",
-      "CO"
-    ],
+    "options": ["ZnO","Zn","C","CO"],
     "answerIndex": 2
   },
   {
     "question": "When Lead Nitrate is heated, it emits brown fumes of:",
-    "options": [
-      "Oxygen",
-      "Nitrogen Dioxide (NO₂)",
-      "Nitric Oxide",
-      "Lead Oxide"
-    ],
+    "options": ["Oxygen","Nitrogen Dioxide (NO₂)","Nitric Oxide","Lead Oxide"],
     "answerIndex": 1
   },
   {
     "question": "What happens when dilute HCl is added to iron filings?",
-    "options": [
-      "Hydrogen gas and Iron chloride are produced",
-      "Chlorine gas and Iron hydroxide are produced",
-      "No reaction takes place",
-      "Iron salt and water are produced"
-    ],
+    "options": ["Hydrogen gas and Iron chloride are produced","Chlorine gas and Iron hydroxide are produced","No reaction takes place","Iron salt and water are produced"],
     "answerIndex": 0
   },
   {
     "question": "The reaction Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl is an example of:",
-    "options": [
-      "Combination reaction",
-      "Decomposition reaction",
-      "Displacement reaction",
-      "Double displacement reaction"
-    ],
+    "options": ["Combination reaction","Decomposition reaction","Displacement reaction","Double displacement reaction"],
     "answerIndex": 3
   },
   {
     "question": "Rancidity occurs due to the ______ of fats and oils.",
-    "options": [
-      "Reduction",
-      "Oxidation",
-      "Hydrogenation",
-      "Hydration"
-    ],
+    "options": ["Reduction","Oxidation","Hydrogenation","Hydration"],
     "answerIndex": 1
   },
   {
     "question": "If n(A) = 4, the number of subsets (Power Set elements) of A is:",
-    "options": [
-      "4",
-      "8",
-      "12",
-      "16"
-    ],
+    "options": ["4","8","12","16"],
     "answerIndex": 3
   },
   {
     "question": "Which of the following relations is a function?",
-    "options": [
-      "{(1, 2), (1, 3), (2, 4)}",
-      "{(1, 2), (2, 3), (3, 4)}",
-      "{(1, 2), (2, 2), (2, 3)}",
-      "{(x, y) | x² + y² = 1}"
-    ],
+    "options": ["{(1, 2), (1, 3), (2, 4)}","{(1, 2), (2, 3), (3, 4)}","{(1, 2), (2, 2), (2, 3)}","{(x, y) | x² + y² = 1}"],
     "answerIndex": 1
   },
   {
     "question": "If A = {1, 2} and B = {3, 4}, then A × B is:",
-    "options": [
-      "{(1,3), (2,4)}",
-      "{(1,3), (1,4), (2,3), (2,4)}",
-      "{1, 2, 3, 4}",
-      "{(3,1), (4,2)}"
-    ],
+    "options": ["{(1,3), (2,4)}","{(1,3), (1,4), (2,3), (2,4)}","{1, 2, 3, 4}","{(3,1), (4,2)}"],
     "answerIndex": 1
   },
   {
     "question": "The domain of the function f(x) = 1/(x-2) is:",
-    "options": [
-      "All Real Numbers (R)",
-      "R - {0}",
-      "R - {2}",
-      "R - {-2}"
-    ],
+    "options": ["All Real Numbers (R)","R - {0}","R - {2}","R - {-2}"],
     "answerIndex": 2
   },
   {
     "question": "If f(x) = x² and g(x) = x + 1, then (f + g)(2) is:",
-    "options": [
-      "4",
-      "3",
-      "7",
-      "5"
-    ],
+    "options": ["4","3","7","5"],
     "answerIndex": 2
   },
   {
     "question": "In a class of 30 students, 15 play cricket, 20 play football, and 10 play both. How many play only cricket?",
-    "options": [
-      "5",
-      "10",
-      "15",
-      "20"
-    ],
+    "options": ["5","10","15","20"],
     "answerIndex": 0
   },
   {
     "question": "A function f: A → B is 'Onto' (Surjective) if:",
-    "options": [
-      "Range = Co-domain",
-      "Range ⊂ Co-domain",
-      "Every element in A has a unique image",
-      "Range is null"
-    ],
+    "options": ["Range = Co-domain","Range ⊂ Co-domain","Every element in A has a unique image","Range is null"],
     "answerIndex": 0
   },
   {
     "question": "According to the Endosymbiotic Theory, mitochondria and chloroplasts are believed to have evolved from:",
-    "options": [
-      "Viruses",
-      "Free-living prokaryotes (Bacteria)",
-      "Golgi bodies",
-      "Endoplasmic Reticulum"
-    ],
+    "options": ["Viruses","Free-living prokaryotes (Bacteria)","Golgi bodies","Endoplasmic Reticulum"],
     "answerIndex": 1
   },
   {
     "question": "Which transport mechanism requires energy (ATP) to move substances against the concentration gradient?",
-    "options": [
-      "Osmosis",
-      "Facilitated Diffusion",
-      "Active Transport",
-      "Simple Diffusion"
-    ],
+    "options": ["Osmosis","Facilitated Diffusion","Active Transport","Simple Diffusion"],
     "answerIndex": 2
   },
   {
     "question": "If the DNA of a cell is destroyed, which immediate function will stop?",
-    "options": [
-      "Respiration",
-      "Protein Synthesis",
-      "Digestion within lysosomes",
-      "Osmosis"
-    ],
+    "options": ["Respiration","Protein Synthesis","Digestion within lysosomes","Osmosis"],
     "answerIndex": 1
   },
   {
     "question": "Select the correct stoichiometric coefficients (a, b, c, d) to balance: aC₄H₁₀ + bO₂ → cCO₂ + dH₂O",
-    "options": [
-      "1, 6, 4, 5",
-      "2, 13, 8, 10",
-      "2, 12, 8, 10",
-      "1, 7, 4, 5"
-    ],
+    "options": ["1, 6, 4, 5","2, 13, 8, 10","2, 12, 8, 10","1, 7, 4, 5"],
     "answerIndex": 1
   },
   {
     "question": "In the redox reaction: MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂, identify the reducing agent.",
-    "options": [
-      "MnO₂",
-      "HCl",
-      "MnCl₂",
-      "Cl₂"
-    ],
+    "options": ["MnO₂","HCl","MnCl₂","Cl₂"],
     "answerIndex": 1
   },
   {
     "question": "Why is respiration considered an exothermic reaction?",
-    "options": [
-      "It breaks down glucose into simpler substances absorbing heat.",
-      "It combines glucose with oxygen to release energy.",
-      "It takes place in the presence of sunlight.",
-      "It produces oxygen gas."
-    ],
+    "options": ["It breaks down glucose into simpler substances absorbing heat.","It combines glucose with oxygen to release energy.","It takes place in the presence of sunlight.","It produces oxygen gas."],
     "answerIndex": 1
   },
   {
     "question": "Let f(x) = √(9 - x²). What is the Domain and Range of f(x)?",
-    "options": [
-      "Domain: [-3, 3], Range: [0, 3]",
-      "Domain: R, Range: R",
-      "Domain: [-3, 3], Range: [-3, 3]",
-      "Domain: [0, 3], Range: [0, ∞)"
-    ],
+    "options": ["Domain: [-3, 3], Range: [0, 3]","Domain: R, Range: R","Domain: [-3, 3], Range: [-3, 3]","Domain: [0, 3], Range: [0, ∞)"],
     "answerIndex": 0
   },
   {
     "question": "A relation R on set A = {1, 2, 3} is defined as R = {(1,1), (2,2), (3,3), (1,2), (2,3)}. This relation is:",
-    "options": [
-      "Reflexive only",
-      "Reflexive and Transitive",
-      "Symmetric and Transitive",
-      "Equivalence Relation"
-    ],
+    "options": ["Reflexive only","Reflexive and Transitive","Symmetric and Transitive","Equivalence Relation"],
     "answerIndex": 0
   },
   {
     "question": "If f(x) = 2x + 3 and g(x) = x², find the composite function (fog)(x) or f(g(x)).",
-    "options": [
-      "2x² + 3",
-      "(2x + 3)²",
-      "2x² + 6",
-      "x² + 2x + 3"
-    ],
+    "options": ["2x² + 3","(2x + 3)²","2x² + 6","x² + 2x + 3"],
     "answerIndex": 0
   },
   {
     "question": "If A ⊂ B, then (A ∪ B) ∩ (A ∩ B) is equal to:",
-    "options": [
-      "B",
-      "A",
-      "ϕ",
-      "Universal Set"
-    ],
+    "options": ["B","A","ϕ","Universal Set"],
     "answerIndex": 1
   },
+
   {
     "question": "Rutherford’s alpha scattering experiment led to the conclusion that most of the atom’s mass is concentrated in the:",
-    "options": ["Electron cloud", "Nucleus", "Protons", "Neutrons"],
+    "options": ["Electron cloud","Nucleus","Protons","Neutrons"],
     "answerIndex": 1
   },
   {
     "question": "The maximum number of electrons that can be accommodated in the L-shell is:",
-    "options": ["2", "8", "18", "32"],
+    "options": ["2","8","18","32"],
     "answerIndex": 1
   },
   {
     "question": "Which of the following represents a molecule of an element?",
-    "options": ["CO2", "H2O", "O2", "NaCl"],
+    "options": ["CO2","H2O","O2","NaCl"],
     "answerIndex": 2
   },
   {
     "question": "The atomic number of an element represents the number of:",
-    "options": ["Neutrons only", "Protons only", "Electrons only", "Protons and neutrons"],
+    "options": ["Neutrons only","Protons only","Electrons only","Protons and neutrons"],
     "answerIndex": 1
   },
   {
     "question": "An isotope of an element differs from the original element in the number of:",
-    "options": ["Electrons", "Protons", "Neutrons", "Proton-electron ratio"],
+    "options": ["Electrons","Protons","Neutrons","Proton-electron ratio"],
     "answerIndex": 2
   },
   {
     "question": "Elements in the same group of the periodic table have the same:",
-    "options": ["Atomic mass", "Valence electrons", "Number of shells", "Density"],
+    "options": ["Atomic mass","Valence electrons","Number of shells","Density"],
     "answerIndex": 1
   },
   {
     "question": "Which block elements are known as transition metals?",
-    "options": ["s-block", "p-block", "d-block", "f-block"],
+    "options": ["s-block","p-block","d-block","f-block"],
     "answerIndex": 2
   },
   {
     "question": "The modern periodic law is based on:",
-    "options": ["Atomic mass", "Atomic number", "Neutron number", "Electron affinity"],
+    "options": ["Atomic mass","Atomic number","Neutron number","Electron affinity"],
     "answerIndex": 1
   },
   {
     "question": "Which among the following is a metalloid?",
-    "options": ["Sodium", "Boron", "Chlorine", "Calcium"],
+    "options": ["Sodium","Boron","Chlorine","Calcium"],
     "answerIndex": 1
   },
   {
     "question": "The most electronegative element in the periodic table is:",
-    "options": ["Oxygen", "Chlorine", "Fluorine", "Nitrogen"],
+    "options": ["Oxygen","Chlorine","Fluorine","Nitrogen"],
     "answerIndex": 2
   },
+
   {
     "question": "Which of the following numbers is a rational number?",
-    "options": ["√2", "0.333...", "π", "√5"],
+    "options": ["√2","0.333...","π","√5"],
     "answerIndex": 1
   },
+
   {
-    "question": "The product of a rational and an irrational number is always:",
-    "options": ["Rational", "Irrational", "Natural", "Whole"],
+    "question": "Which statement is correct about the product of a rational and an irrational number?",
+    "options": [
+      "It is always irrational",
+      "It can be rational or irrational",
+      "It is always rational",
+      "It is always an integer"
+    ],
     "answerIndex": 1
   },
+
   {
     "question": "If the ratio of two numbers is 3:5 and their sum is 40, the smaller number is:",
-    "options": ["12", "15", "18", "20"],
+    "options": ["12","15","18","20"],
     "answerIndex": 1
   },
   {
     "question": "A:B = 2:3 and B:C = 4:5. What is A:C?",
-    "options": ["8:15", "6:5", "2:5", "3:10"],
+    "options": ["8:15","6:5","2:5","3:10"],
     "answerIndex": 0
   },
   {
     "question": "If a number increases from 80 to 100, the ratio of the increase to the original value is:",
-    "options": ["1:4", "1:5", "1:2", "2:5"],
-    "answerIndex": 1
+    "options": ["1:4","1:5","1:2","2:5"],
+    "answerIndex": 0
   }
 ]
