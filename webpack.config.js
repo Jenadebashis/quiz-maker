@@ -1,4 +1,3 @@
-
 const path = require('path');
 
 module.exports = {
@@ -6,7 +5,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/dist/'
+    publicPath: '/dist/',
   },
   module: {
     rules: [
@@ -25,8 +24,11 @@ module.exports = {
     },
     compress: true,
     port: 8080,
+    proxy: {
+      '/api': 'http://localhost:3000',
+    },
     devMiddleware: {
-      publicPath: '/dist/'
-    }
+      publicPath: '/dist/',
+    },
   },
 };
