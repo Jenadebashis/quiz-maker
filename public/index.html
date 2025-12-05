@@ -1,51 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Timed Quiz — One question at a time</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>React Quiz App</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="container">
-    <h1>Timed Quiz</h1>
-
-    <section id="setup" class="card">
-      <div><strong>Total time:</strong> 60:00 (fixed)</div>
-      <div style="margin:8px 0">
-        <label for="quizOptions">Choose a quiz:</label>
-        <select id="quizOptions" style="margin-left:8px;padding:4px">
-          <option value="">Select a Quiz</option>
-        </select>
-      </div>
-      <div style="margin:8px 0">
-        <label for="userName">Your name:</label>
-        <input id="userName" type="text" placeholder="Enter your name (optional)" style="margin-left:8px;padding:4px" />
-      </div>
-      <button id="startBtn">Start Quiz</button>
-      <p class="muted">You will see one question at a time. Use Prev/Continue to navigate. Submit is enabled only after all questions are answered or when time runs out.</p>
-    </section>
-
-    <section id="quizArea" class="card hidden">
-      <div class="topbar">
-        <div>Time left: <span id="timer">25:00</span></div>
-        <div id="progress">Question 1 / 1</div>
-      </div>
-
-      <form id="quizForm">
-        <div id="questionBox" class="question"></div>
-      </form>
-
-      <div class="controls">
-        <button id="prevBtn" class="btn" disabled>Prev</button>
-        <button id="nextBtn" class="btn">Continue</button>
-        <button id="submitBtn" class="btn primary" disabled>Submit</button>
-      </div>
-    </section>
-
-    <section id="result" class="card hidden"></section>
-  </main>
-
-  <script src="script.js"></script>
+  <div id="root"></div>
+  <script src="index.js"></script>
 </body>
 </html>
