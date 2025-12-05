@@ -2,7 +2,7 @@ import React from 'react';
 
 const ResultsPage = ({ questions, answers, onRestartQuiz }) => {
   const score = questions.reduce((acc, question, index) => {
-    if (question.answer === answers[index]) {
+    if (question.Answer === answers[index]) {
       return acc + 1;
     }
     return acc;
@@ -14,10 +14,10 @@ const ResultsPage = ({ questions, answers, onRestartQuiz }) => {
       <h2 className="results-score">You scored {score} out of {questions.length}</h2>
       <div className="results-questions">
         {questions.map((question, index) => (
-          <div key={index} className={`result-question ${question.answer === answers[index] ? 'correct' : 'incorrect'}`}>
+          <div key={index} className={`result-question ${question.Answer === answers[index] ? 'correct' : 'incorrect'}`}>
             <h3 className="result-question-title">{question.question}</h3>
-            <p className="result-question-user-answer">Your answer: {answers[index]}</p>
-            <p className="result-question-correct-answer">Correct answer: {question.answer}</p>
+            <p className="result-question-user-answer">Your answer: {answers[index] || 'Not Answered'}</p>
+            <p className="result-question-correct-answer">Correct answer: {question.Answer}</p>
           </div>
         ))}
       </div>

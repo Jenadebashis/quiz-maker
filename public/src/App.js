@@ -8,7 +8,11 @@ const App = () => {
   const [quizResult, setQuizResult] = useState(null);
 
   const handleQuizSubmit = (questions, answers) => {
-    setQuizResult({ questions, answers });
+    const processedAnswers = {};
+    questions.forEach((question, index) => {
+      processedAnswers[index] = answers[index] || null;
+    });
+    setQuizResult({ questions, answers: processedAnswers });
     setSelectedQuiz(null);
   };
 
