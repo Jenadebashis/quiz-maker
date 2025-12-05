@@ -22,7 +22,7 @@ const QuizPage = ({ quizName }) => {
 
   useEffect(() => {
     if (timeLeft === 0 && questions.length > 0) {
-      // Handle timeout
+      handleSubmit();
     } else if (timeLeft > 0) {
       const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
       return () => clearTimeout(timer);
@@ -32,7 +32,9 @@ const QuizPage = ({ quizName }) => {
   const handleAnswerSelect = (questionIndex, answer) => {
     setAnswers({ ...answers, [questionIndex]: answer });
     const newQuestionStatus = [...questionStatus];
-    newQuestionStatus[questionIndex] = 'attempted';
+    if (newQuestionStatus[questionIndex] !== 'marked-for-review') {
+      newQuestionStatus[questionIndex] = 'attempted';
+    }
     setQuestionStatus(newQuestionStatus);
   };
 
@@ -40,9 +42,44 @@ const QuizPage = ({ quizName }) => {
     setCurrentQuestionIndex(index);
   };
 
+  const handleMarkForReview = () => {
+    const newQuestionStatus = [...questionStatus];
+    if (newQuestionStatus[currentQuestionIndex] === 'marked-for-review') {
+      newQuestionStatus[currentQuestionIndex] = answers[currentQuestionIndex] ? 'attempted' : 'not-attempted';
+    } else {
+      newQuestionStatus[currentQuestionIndex] = 'marked-for-review';
+    }
+    setQuestionStatus(newQuestionStatus);
+  };
+
+  const handleNext = () => {
+    if (currentQuestionIndex < questions.length - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(currentQuestionIndex - 1);
+    }
+  };
+
+  const handleSubmit = () => {
+    // Calculate score and show results
+    let score = 0;
+    questions.forEach((question, index) => {
+      if (answers[index] === question.answer) {
+        score++;
+      }
+    });
+    alert(`You scored ${score} out of ${questions.length}`);
+  };
+
   if (questions.length === 0) {
     return <div>Loading...</div>;
   }
+
+  const allQuestionsAnswered = Object.keys(answers).length === questions.length;
 
   return (
     <div className="quiz-page">
@@ -59,6 +96,14 @@ const QuizPage = ({ quizName }) => {
           answer={answers[currentQuestionIndex]}
           onAnswerSelect={(answer) => handleAnswerSelect(currentQuestionIndex, answer)}
         />
+        <div className="navigation-buttons">
+          <button onClick={handlePrevious} disabled={currentQuestionIndex === 0}>Previous</button>
+          <button onClick={handleMarkForReview}>
+            {questionStatus[currentQuestionIndex] === 'marked-for-review' ? 'Unmark' : 'Mark for Review'}
+          </button>
+          <button onClick={handleNext} disabled={currentQuestionIndex === questions.length - 1}>Next</button>
+          <button onClick={handleSubmit} disabled={!allQuestionsAnswered}>Submit</button>
+        </div>
       </div>
     </div>
   );
