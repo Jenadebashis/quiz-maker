@@ -17,7 +17,7 @@ app.use(express.static(publicPath));
 
 // Connect to MongoDB
 // IMPORTANT: Replace <YOUR_USERNAME> and <YOUR_PASSWORD> with your MongoDB credentials.
-mongoose.connect('mongodb://<YOUR_USERNAME>:<YOUR_PASSWORD>@localhost:27017/quizdb');
+mongoose.connect('mongodb+srv://admin1:SonuBunu@clusterdj.yipg5lh.mongodb.net/?appName=ClusterDj');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
