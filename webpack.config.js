@@ -1,3 +1,4 @@
+
 const path = require('path');
 
 module.exports = {
@@ -5,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public/dist'),
     filename: 'bundle.js',
+    publicPath: '/dist/'
   },
   module: {
     rules: [
@@ -23,5 +25,8 @@ module.exports = {
     },
     compress: true,
     port: 8080,
+    devMiddleware: {
+      publicPath: '/dist/'
+    }
   },
 };
