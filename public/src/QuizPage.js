@@ -65,6 +65,13 @@ const QuizPage = ({ quizName, onQuizSubmit }) => {
   };
 
   const handleSubmit = () => {
+    const allQuestionsAnswered = Object.keys(answers).length === questions.length;
+    if (!allQuestionsAnswered) {
+      const confirmSubmit = window.confirm('You have not answered all the questions. Are you sure you want to submit?');
+      if (!confirmSubmit) {
+        return;
+      }
+    }
     onQuizSubmit(questions, answers);
   };
 
@@ -72,7 +79,6 @@ const QuizPage = ({ quizName, onQuizSubmit }) => {
     return <div>Loading...</div>;
   }
 
-  const allQuestionsAnswered = Object.keys(answers).length === questions.length;
 
   return (
     <div className="quiz-page">
@@ -95,7 +101,7 @@ const QuizPage = ({ quizName, onQuizSubmit }) => {
             {questionStatus[currentQuestionIndex] === 'marked-for-review' ? 'Unmark' : 'Mark for Review'}
           </button>
           <button onClick={handleNext} disabled={currentQuestionIndex === questions.length - 1}>Next</button>
-          <button onClick={handleSubmit} disabled={!allQuestionsAnswered}>Submit</button>
+          <button onClick={handleSubmit}>Submit</button>
         </div>
       </div>
     </div>
