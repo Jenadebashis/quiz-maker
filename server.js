@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
@@ -16,8 +17,7 @@ const publicPath = path.join(__dirname, 'public');
 app.use(express.static(publicPath));
 
 // Connect to MongoDB
-// IMPORTANT: Replace <YOUR_USERNAME> and <YOUR_PASSWORD> with your MongoDB credentials.
-mongoose.connect('mongodb+srv://admin1:SonuBunu@clusterdj.yipg5lh.mongodb.net/?appName=ClusterDj');
+mongoose.connect(process.env.MONGODB_URI);
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

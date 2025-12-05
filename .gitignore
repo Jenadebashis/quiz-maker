@@ -1,3 +1,2 @@
-/node_modules/
-*.sqlite3
-quiz_results.sqlite3
+node_modules
+.env
