@@ -16,10 +16,7 @@ const publicPath = path.join(__dirname, 'public');
 app.use(express.static(publicPath));
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/quizdb', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect('mongodb://localhost:27017/quizdb');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -68,6 +65,7 @@ app.post('/api/register', async (req, res) => {
     await user.save();
     res.status(201).json({ message: 'User registered successfully' });
   } catch (err) {
+    console.error('Registration error:', err);
     res.status(500).json({ error: 'Internal server error' });
   }
 });
@@ -86,6 +84,7 @@ app.post('/api/login', async (req, res) => {
     const token = uuidv4(); // Generate a simple token
     res.json({ token, username: user.username });
   } catch (err) {
+    console.error('Login error:', err);
     res.status(500).json({ error: 'Internal server error' });
   }
 });
@@ -250,6 +249,7 @@ app.get('/api/user/results', async (req, res) => {
         const results = await Session.find({ userId: user._id });
         res.json(results);
     } catch (err) {
+        console.error('Error fetching user results:', err);
         res.status(500).json({ error: 'Internal server error' });
     }
 });
