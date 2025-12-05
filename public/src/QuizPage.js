@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Dashboard from './Dashboard';
 import Question from './Question';
 
-const QuizPage = ({ quizName }) => {
+const QuizPage = ({ quizName, onQuizSubmit }) => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -65,14 +65,7 @@ const QuizPage = ({ quizName }) => {
   };
 
   const handleSubmit = () => {
-    // Calculate score and show results
-    let score = 0;
-    questions.forEach((question, index) => {
-      if (answers[index] === question.answer) {
-        score++;
-      }
-    });
-    alert(`You scored ${score} out of ${questions.length}`);
+    onQuizSubmit(questions, answers);
   };
 
   if (questions.length === 0) {

@@ -6,7 +6,7 @@ const Question = ({ question, answer, onAnswerSelect }) => {
       <h2 className="question-title">{question.question}</h2>
       <div className="options-container">
         {question.options.map((option, index) => (
-          <div key={index} className={`option ${answer === option ? 'selected' : ''}`}>
+          <div key={index} className={`option ${answer === option ? 'selected' : ''}`} onClick={() => onAnswerSelect(option)}>
             <input
               type="radio"
               id={`option-${index}`}

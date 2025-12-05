@@ -227,6 +227,72 @@ body {
   cursor: not-allowed;
 }
 
+/* Results Page */
+.results-page {
+  padding: 20px;
+}
+
+.results-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.results-score {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 40px;
+}
+
+.results-questions {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.result-question {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-question.correct {
+  border-left: 5px solid #4CAF50;
+}
+
+.result-question.incorrect {
+  border-left: 5px solid #f44336;
+}
+
+.result-question-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.result-question-user-answer {
+  font-style: italic;
+}
+
+.result-question-correct-answer {
+  font-weight: bold;
+}
+
+.restart-button {
+  display: block;
+  margin: 40px auto 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.restart-button:hover {
+  background-color: #555;
+}
 
 @keyframes fadeInDown {
   from {
