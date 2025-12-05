@@ -14,11 +14,11 @@ const HomePage = ({ onQuizStart, username, onLogout, onNavigate }) => {
     <div className="home-page">
       <header className="header">
         <h1>Quiz App</h1>
-        <div className="user-info">
+        <nav className="navbar">
           {username ? (
             <>
-              <span>Welcome, {username}</span>
-              <button onClick={() => onNavigate('profile')}>Profile</button>
+              <a href="#" onClick={() => onNavigate('home')}>Home</a>
+              <a href="#" onClick={() => onNavigate('profile')}>Profile</a>
               <button onClick={onLogout}>Logout</button>
             </>
           ) : (
@@ -27,11 +27,11 @@ const HomePage = ({ onQuizStart, username, onLogout, onNavigate }) => {
               <button onClick={() => onNavigate('register')}>Register</button>
             </>
           )}
-        </div>
+        </nav>
       </header>
       <div className="quiz-list">
         {quizzes.map(quiz => (
-          <QuizCard key={quiz.id} quiz={quiz} onQuizStart={onQuizStart} />
+          <QuizCard key={quiz.id} quizName={quiz.name} onQuizSelect={onQuizStart} />
         ))}
       </div>
     </div>
