@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
   background-color: #f0f0f0;
+  animation: bg-pan-left 8s linear infinite both;
 }
 
 .homepage {
@@ -12,6 +14,7 @@ body {
   font-size: 2.5em;
   margin-bottom: 40px;
   color: #333;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
   animation: fadeInDown 1s;
 }
 
@@ -23,7 +26,8 @@ body {
 }
 
 .quiz-card {
-  background-color: #fff;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -32,6 +36,8 @@ body {
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
   animation: fadeInUp 1s;
+  position: relative;
+  overflow: hidden;
 }
 
 .quiz-card:hover {
@@ -43,7 +49,28 @@ body {
   font-size: 1.2em;
   color: #333;
   margin: 0;
+  z-index: 1;
 }
+
+.quiz-icon {
+  font-size: 3em;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.3s;
+  z-index: 0;
+}
+
+.quiz-card:hover .quiz-icon {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.quiz-card:hover .quiz-card-title {
+  opacity: 0;
+}
+
 
 @keyframes fadeInDown {
   from {
@@ -64,5 +91,14 @@ body {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes bg-pan-left {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
