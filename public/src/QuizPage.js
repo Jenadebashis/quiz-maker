@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Dashboard from './Dashboard';
 import Question from './Question';
 
-const QuizPage = ({ quizName, onQuizSubmit }) => {
+const QuizPage = ({ quizName, onQuizSubmit, token }) => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -64,7 +64,7 @@ const QuizPage = ({ quizName, onQuizSubmit }) => {
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     const allQuestionsAnswered = Object.keys(answers).length === questions.length;
     if (!allQuestionsAnswered) {
       const confirmSubmit = window.confirm('You have not answered all the questions. Are you sure you want to submit?');
@@ -72,6 +72,32 @@ const QuizPage = ({ quizName, onQuizSubmit }) => {
         return;
       }
     }
+    const score = questions.reduce((acc, question, index) => {
+      const correctAnswer = question.options[question.answerIndex];
+      if (correctAnswer === answers[index]) {
+        return acc + 1;
+      }
+      return acc;
+    }, 0);
+
+    try {
+      await fetch('/api/quizzes/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+          quizId: quizName,
+          answers,
+          score,
+          submitTime: new Date(),
+        }),
+      });
+    } catch (err) {
+      console.error('Error submitting quiz', err);
+    }
+
     onQuizSubmit(questions, answers);
   };
 
