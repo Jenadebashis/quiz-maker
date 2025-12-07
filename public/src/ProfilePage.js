@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
 
-const ProfilePage = ({ token }) => {
+const ProfilePage = ({ token, onViewDetails }) => {
   const [results, setResults] = useState([]);
 
   useEffect(() => {
@@ -30,6 +30,7 @@ const ProfilePage = ({ token }) => {
             <p>Quiz: {result.quizId}</p>
             <p>Score: {result.score}</p>
             <p>Date: {new Date(result.submitTime).toLocaleDateString()}</p>
+            <a href="#" onClick={() => onViewDetails(result)}>View Details</a>
           </div>
         ))}
       </div>

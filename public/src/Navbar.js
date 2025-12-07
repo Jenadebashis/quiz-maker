@@ -8,7 +8,7 @@ const Navbar = ({ username, onLogout, onNavigate }) => (
         <>
           <a href="#" onClick={() => onNavigate('home')}>Home</a>
           <a href="#" onClick={() => onNavigate('profile')}>Profile</a>
-          <button onClick={onLogout}>Logout</button>
+          <a href="#" onClick={onLogout}>Logout</a>
         </>
       ) : (
         <>

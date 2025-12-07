@@ -14,6 +14,7 @@ const App = () => {
   const [answers, setAnswers] = useState({});
   const [token, setToken] = useState(null);
   const [username, setUsername] = useState(null);
+  const [selectedResult, setSelectedResult] = useState(null);
 
   useEffect(() => {
     const storedToken = localStorage.getItem('token');
@@ -58,18 +59,26 @@ const App = () => {
     localStorage.removeItem('username');
   };
 
+  const handleViewDetails = (result) => {
+    setSelectedResult(result);
+    setCurrentPage('results');
+  };
+
   const renderPage = () => {
     switch (currentPage) {
       case 'quiz':
         return <QuizPage quizName={quizName} onQuizSubmit={handleQuizSubmit} token={token} />;
       case 'results':
+        if (selectedResult) {
+          return <ResultsPage questions={selectedResult.questions} answers={selectedResult.answers} onRestartQuiz={handleRestartQuiz} />;
+        }
         return <ResultsPage questions={questions} answers={answers} onRestartQuiz={handleRestartQuiz} />;
       case 'login':
         return <LoginPage onLogin={handleLogin} />;
       case 'register':
         return <RegisterPage onRegister={handleRegister} />;
       case 'profile':
-        return <ProfilePage token={token} />;
+        return <ProfilePage token={token} onViewDetails={handleViewDetails} />;
       default:
         return <HomePage onQuizStart={handleQuizStart} />;
     }
