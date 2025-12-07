@@ -60,7 +60,7 @@ const App = () => {
   const renderPage = () => {
     switch (currentPage) {
       case 'quiz':
-        return <QuizPage quizName={quizName} onQuizSubmit={handleQuizSubmit} />;
+        return <QuizPage quizName={quizName} onQuizSubmit={handleQuizSubmit} token={token} />;
       case 'results':
         return <ResultsPage questions={questions} answers={answers} onRestartQuiz={handleRestartQuiz} />;
       case 'login':
