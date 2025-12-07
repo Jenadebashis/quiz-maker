@@ -134,8 +134,10 @@ app.post('/api/quizzes/submit', async (req, res) => {
     }
 
     const newResult = new Session({
+      session: uuidv4(),
       quizId,
       userId: user._id,
+      name: user.username,
       answers,
       score,
       submitTime: new Date(),
