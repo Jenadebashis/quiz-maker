@@ -28,12 +28,10 @@ module.exports = {
     },
     compress: true,
     port: 8080,
-    proxy: [
-      {
-        context: ['/api'],
-        target: 'http://localhost:3000',
-      },
-    ],
+    historyApiFallback: true,
+    proxy: {
+      '/api': 'http://localhost:3000',
+    },
     devMiddleware: {
       publicPath: '/dist/',
     },
