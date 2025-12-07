@@ -135,6 +135,18 @@
   border-radius: 4px;
 }
 
+.legend-color.attempted {
+  background-color: #28a745;
+}
+
+.legend-color.not-attempted {
+  background-color: #6c757d;
+}
+
+.legend-color.marked-for-review {
+  background-color: #ffc107;
+}
+
 .question-container {
   flex: 1;
   padding: 2rem;
