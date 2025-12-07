@@ -8,7 +8,7 @@ const ProfilePage = ({ token }) => {
       try {
         const response = await fetch('/api/user/results', {
           headers: {
-            Authorization: token,
+            Authorization: `Bearer ${token}`,
           },
         });
         const data = await response.json();
