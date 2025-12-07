@@ -5,7 +5,7 @@ const HomePage = ({ onQuizStart }) => {
   const [quizzes, setQuizzes] = useState([]);
 
   useEffect(() => {
-    fetch('/api/quizzes')
+    fetch('https://quiz-maker-backend-50pi.onrender.com/api/quizzes')
       .then(res => res.json())
       .then(data => setQuizzes(data));
   }, []);

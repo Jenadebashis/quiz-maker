@@ -7,7 +7,7 @@ const ProfilePage = ({ token, onViewDetails }) => {
   useEffect(() => {
     const fetchResults = async () => {
       try {
-        const response = await fetch('/api/user/results', {
+        const response = await fetch('https://quiz-maker-backend-50pi.onrender.com/api/user/results', {
           headers: {
             Authorization: `Bearer ${token}`,
           },

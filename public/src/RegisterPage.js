@@ -8,7 +8,7 @@ const RegisterPage = ({ onRegister }) => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('/api/register', {
+      const response = await fetch('https://quiz-maker-backend-50pi.onrender.com/api/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

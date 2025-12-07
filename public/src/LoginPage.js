@@ -8,7 +8,7 @@ const LoginPage = ({ onLogin }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('/api/login', {
+      const response = await fetch('https://quiz-maker-backend-50pi.onrender.com/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

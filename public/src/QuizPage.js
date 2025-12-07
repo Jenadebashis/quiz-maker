@@ -81,7 +81,7 @@ const QuizPage = ({ quizName, onQuizSubmit, token }) => {
     }, 0);
 
     try {
-      await fetch('/api/quizzes/submit', {
+      await fetch('https://quiz-maker-backend-50pi.onrender.com/api/quizzes/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
