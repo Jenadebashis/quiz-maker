@@ -162,7 +162,14 @@ app.get('/api/user/results', async (req, res) => {
       return res.status(401).json({ error: 'Unauthorized' });
     }
     const results = await Session.find({ userId: user._id });
-    res.json(results);
+    const resultsWithQuestions = results.map(result => {
+      const quizData = loadQuestions(result.quizId);
+      return {
+        ...result.toObject(),
+        questions: quizData || [],
+      };
+    });
+    res.json(resultsWithQuestions);
   } catch (err) {
     console.error('Error fetching user results:', err);
     res.status(500).json({ error: 'Internal server error' });
