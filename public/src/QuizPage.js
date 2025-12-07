@@ -134,4 +134,4 @@ const QuizPage = ({ quizName, onQuizSubmit, token }) => {
   );
 };
 
-export default QuizPage;
+export default QuizPage; 
