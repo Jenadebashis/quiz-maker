@@ -5,6 +5,7 @@ import ResultsPage from './ResultsPage';
 import LoginPage from './LoginPage';
 import RegisterPage from './RegisterPage';
 import ProfilePage from './ProfilePage';
+import Navbar from './Navbar';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
@@ -70,12 +71,15 @@ const App = () => {
       case 'profile':
         return <ProfilePage token={token} />;
       default:
-        return <HomePage onQuizStart={handleQuizStart} username={username} onLogout={handleLogout} onNavigate={setCurrentPage} />;
+        return <HomePage onQuizStart={handleQuizStart} />;
     }
   };
 
   return (
     <div className="App">
+      {currentPage !== 'login' && currentPage !== 'register' && (
+        <Navbar username={username} onLogout={handleLogout} onNavigate={setCurrentPage} />
+      )}
       {renderPage()}
     </div>
   );
