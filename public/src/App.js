@@ -35,7 +35,7 @@ const App = () => {
   const handleQuizSubmit = (questions, answers) => {
     setQuestions(questions);
     setAnswers(answers);
-    setCurrentPage('results');
+    setCurrent.page('results');
   };
 
   const handleRestartQuiz = () => {
@@ -73,7 +73,7 @@ const App = () => {
         case 'register':
           return <RegisterPage onRegister={handleRegister} />;
         default:
-          return <LoginPage onLogin={handleLogin} />;
+          return <LoginPage onLogin={handleLogin} onNavigate={setCurrentPage} />;
       }
     }
 
