@@ -35,7 +35,7 @@ const App = () => {
   const handleQuizSubmit = (questions, answers) => {
     setQuestions(questions);
     setAnswers(answers);
-    setCurrent.page('results');
+    setCurrentPage('results');
   };
 
   const handleRestartQuiz = () => {
@@ -88,7 +88,7 @@ const App = () => {
       case 'profile':
         return <ProfilePage token={token} onViewDetails={handleViewDetails} />;
       default:
-        return <HomePage onQuizStart={handleQuizStart} />;
+        return <HomePage onQuizStart={handleQuizStart} token={token} />;
     }
   };
 
