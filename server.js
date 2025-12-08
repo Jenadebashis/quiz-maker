@@ -15,6 +15,10 @@ app.use(express.json({ limit: '200kb' }));
 const publicPath = path.join(__dirname, 'public');
 app.use(express.static(publicPath));
 
+// ADD THIS:
+const distPath = path.join(__dirname, 'dist');
+app.use('/dist', express.static(distPath));
+
 mongoose.connect(process.env.MONGODB_URI);
 
 const db = mongoose.connection;
