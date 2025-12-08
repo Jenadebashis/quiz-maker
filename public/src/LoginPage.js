@@ -46,9 +46,10 @@ const LoginPage = ({ onLogin, onNavigate }) => {
           <button type="submit">Login</button>
           {error && <p className="error">{error}</p>}
         </form>
-        <p>
-          Don't have an account? <button onClick={() => onNavigate('register')}>Register</button>
-        </p>
+        <div>
+          <p className="register-text">Don't have an account?</p>
+          <button onClick={() => onNavigate('register')}>Register</button>
+        </div>
       </div>
     </div>
   );
