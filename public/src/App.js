@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import HomePage from './HomePage';
 import QuizPage from './QuizPage';
@@ -8,7 +9,7 @@ import ProfilePage from './ProfilePage';
 import Navbar from './Navbar';
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPage] = useState('login');
   const [quizName, setQuizName] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState({});
@@ -22,6 +23,7 @@ const App = () => {
     if (storedToken && storedUsername) {
       setToken(storedToken);
       setUsername(storedUsername);
+      setCurrentPage('home');
     }
   }, []);
 
@@ -57,6 +59,7 @@ const App = () => {
     setUsername(null);
     localStorage.removeItem('token');
     localStorage.removeItem('username');
+    setCurrentPage('login');
   };
 
   const handleViewDetails = (result) => {
@@ -65,6 +68,15 @@ const App = () => {
   };
 
   const renderPage = () => {
+    if (!token) {
+      switch (currentPage) {
+        case 'register':
+          return <RegisterPage onRegister={handleRegister} />;
+        default:
+          return <LoginPage onLogin={handleLogin} />;
+      }
+    }
+
     switch (currentPage) {
       case 'quiz':
         return <QuizPage quizName={quizName} onQuizSubmit={handleQuizSubmit} token={token} />;
@@ -73,10 +85,6 @@ const App = () => {
           return <ResultsPage questions={selectedResult.questions} answers={selectedResult.answers} onRestartQuiz={handleRestartQuiz} />;
         }
         return <ResultsPage questions={questions} answers={answers} onRestartQuiz={handleRestartQuiz} />;
-      case 'login':
-        return <LoginPage onLogin={handleLogin} />;
-      case 'register':
-        return <RegisterPage onRegister={handleRegister} />;
       case 'profile':
         return <ProfilePage token={token} onViewDetails={handleViewDetails} />;
       default:
@@ -86,7 +94,7 @@ const App = () => {
 
   return (
     <div className="App">
-      {currentPage !== 'login' && currentPage !== 'register' && (
+      {token && (
         <Navbar username={username} onLogout={handleLogout} onNavigate={setCurrentPage} />
       )}
       {renderPage()}

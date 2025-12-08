@@ -87,6 +87,24 @@ app.post('/api/login', async (req, res) => {
   }
 });
 
+const authenticateToken = async (req, res, next) => {
+  const authHeader = req.headers['authorization'];
+  const token = authHeader && authHeader.split(' ')[1];
+  if (token == null) return res.sendStatus(401);
+
+  try {
+    const user = await User.findOne({ token });
+    if (!user) {
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
+    req.user = user;
+    next();
+  } catch (err) {
+    console.error('Authentication error:', err);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};
+
 function getAvailableQuizzes() {
   const directoryPath = path.join(__dirname, 'public', 'Test Json Files');
   try {
@@ -119,25 +137,19 @@ function loadQuestions(quizId) {
   }
 }
 
-app.get('/api/quizzes', (req, res) => {
+app.get('/api/quizzes', authenticateToken, (req, res) => {
   res.json(getAvailableQuizzes());
 });
 
-app.post('/api/quizzes/submit', async (req, res) => {
+app.post('/api/quizzes/submit', authenticateToken, async (req, res) => {
   const { quizId, answers, score } = req.body;
-  const token = req.headers.authorization.split(' ')[1];
 
   try {
-    const user = await User.findOne({ token });
-    if (!user) {
-      return res.status(401).json({ error: 'Unauthorized' });
-    }
-
     const newResult = new Session({
       session: uuidv4(),
       quizId,
-      userId: user._id,
-      name: user.username,
+      userId: req.user._id,
+      name: req.user.username,
       answers,
       score,
       submitTime: new Date(),
@@ -151,17 +163,9 @@ app.post('/api/quizzes/submit', async (req, res) => {
   }
 });
 
-app.get('/api/user/results', async (req, res) => {
-  const token = req.headers.authorization.split(' ')[1];
-  if (!token) {
-    return res.status(401).json({ error: 'Unauthorized' });
-  }
+app.get('/api/user/results', authenticateToken, async (req, res) => {
   try {
-    const user = await User.findOne({ token });
-    if (!user) {
-      return res.status(401).json({ error: 'Unauthorized' });
-    }
-    const results = await Session.find({ userId: user._id });
+    const results = await Session.find({ userId: req.user._id });
     const resultsWithQuestions = results.map(result => {
       const quizData = loadQuestions(result.quizId);
       return {
