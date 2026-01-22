@@ -1,0 +1,302 @@
+[
+  {
+    "question": "An object travels 16 m in 4 s and then another 16 m in 2 s. What is the average speed of the object?",
+    "options": ["4 m/s", "5.33 m/s", "8 m/s", "6 m/s"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following represents the law of conservation of momentum in a collision between two bodies?",
+    "options": ["m1u1 + m2u2 = m1v1 + m2v2", "m1v1 = m2v2", "F = ma", "v^2 - u^2 = 2as"],
+    "answerIndex": 0
+  },
+  {
+    "question": "What happens to the buoyant force acting on a ship as it moves from freshwater to seawater?",
+    "options": ["It decreases", "It remains the same", "It becomes zero", "It doubles"],
+    "answerIndex": 1
+  },
+  {
+    "question": "A lens has a power of -2.0 D. What is its focal length and type?",
+    "options": ["50 cm, Convex", "-50 cm, Concave", "20 cm, Concave", "-20 cm, Convex"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which component is used to regulate current without changing the voltage source in an electric circuit?",
+    "options": ["Voltmeter", "Rheostat", "Ammeter", "Galvanometer"],
+    "answerIndex": 1
+  },
+  {
+    "question": "According to Fleming's Left-Hand Rule, what does the forefinger represent?",
+    "options": ["Direction of Force", "Direction of Magnetic Field", "Direction of Current", "Direction of Resistance"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following elements has the largest atomic radius?",
+    "options": ["Li", "Na", "K", "Cs"],
+    "answerIndex": 3
+  },
+  {
+    "question": "What is the pH value of a neutral solution at 25°C?",
+    "options": ["0", "7", "14", "5"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which gas is evolved when an acid reacts with a metal carbonate?",
+    "options": ["Hydrogen", "Carbon Dioxide", "Oxygen", "Nitrogen"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the valency of Magnesium (Atomic Number 12)?",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following is a balanced chemical equation?",
+    "options": ["Mg + O2 -> MgO", "2Mg + O2 -> 2MgO", "Mg + 2O2 -> MgO2", "2Mg + 2O2 -> 2MgO"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the general formula for Alkanes?",
+    "options": ["CnH2n", "CnH2n+2", "CnH2n-2", "CnHn"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The process of change of state directly from solid to gas is called:",
+    "options": ["Evaporation", "Sublimation", "Condensation", "Fusion"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which isotope is used in the treatment of cancer?",
+    "options": ["U-235", "I-131", "Co-60", "C-14"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which of the following is an example of a displacement reaction?",
+    "options": ["Fe + CuSO4 -> FeSO4 + Cu", "CaO + H2O -> Ca(OH)2", "2H2O -> 2H2 + O2", "NaOH + HCl -> NaCl + H2O"],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the main constituent of Biogas?",
+    "options": ["Ethane", "Methane", "Propane", "Butane"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The image formed by a concave mirror is virtual, erect, and larger than the object. The object is:",
+    "options": ["At the focus", "Between the pole and focus", "Between C and F", "Beyond C"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which physical quantity is measured in 'Ohm-meter'?",
+    "options": ["Resistance", "Resistivity", "Conductance", "Current"],
+    "answerIndex": 1
+  },
+  {
+    "question": "In the reaction CuO + H2 -> Cu + H2O, which substance is reduced?",
+    "options": ["H2", "CuO", "Cu", "H2O"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which mirror is used as a rear-view mirror in vehicles?",
+    "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Parabolic mirror"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which organelle is known as the 'Powerhouse of the cell'?",
+    "options": ["Nucleus", "Mitochondria", "Ribosomes", "Lysosomes"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the primary function of Phloem in plants?",
+    "options": ["Transport of water", "Transport of food", "Mechanical support", "Transpiration"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following is a prokaryotic organism?",
+    "options": ["Amoeba", "Bacteria", "Yeast", "Mushroom"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which hormone is responsible for the 'fight or flight' response?",
+    "options": ["Insulin", "Adrenaline", "Thyroxine", "Estrogen"],
+    "answerIndex": 1
+  },
+  {
+    "question": "In which part of the human digestive system does most absorption take place?",
+    "options": ["Stomach", "Small Intestine", "Large Intestine", "Oesophagus"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The movement of a sunflower towards the sun is an example of:",
+    "options": ["Geotropism", "Phototropism", "Hydrotropism", "Chemotropism"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the phenotypic ratio of a Mendelian monohybrid cross in F2?",
+    "options": ["1:2:1", "3:1", "9:3:3:1", "1:1"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which blood group is known as the 'Universal Donor'?",
+    "options": ["A", "B", "AB", "O"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Which of the following is a viral disease?",
+    "options": ["Tuberculosis", "Cholera", "Polio", "Typhoid"],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the primary site of gaseous exchange in human lungs?",
+    "options": ["Bronchi", "Alveoli", "Trachea", "Larynx"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which plant group is known as the 'Amphibians of the plant kingdom'?",
+    "options": ["Thallophyta", "Bryophyta", "Pteridophyta", "Gymnosperms"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the structural and functional unit of the kidney?",
+    "options": ["Neuron", "Nephron", "Alveoli", "Hepatocyte"],
+    "answerIndex": 1
+  },
+  {
+    "question": "In a food chain, which organism occupies the first trophic level?",
+    "options": ["Herbivores", "Carnivores", "Producers", "Decomposers"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which part of the brain controls voluntary actions and balance?",
+    "options": ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What percentage of energy is transferred to the next trophic level?",
+    "options": ["1%", "10%", "50%", "90%"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following is an example of a vestigial organ in humans?",
+    "options": ["Heart", "Kidney", "Vermiform Appendix", "Lungs"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which gas is mainly responsible for ozone layer depletion?",
+    "options": ["CO2", "CFCs", "CH4", "SO2"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The double helix structure of DNA was proposed by:",
+    "options": ["Mendel", "Watson and Crick", "Darwin", "Lamarck"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following is NOT a greenhouse gas?",
+    "options": ["Methane", "Carbon dioxide", "Nitrogen", "Water vapor"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The process of nitrogen fixation is primarily carried out by:",
+    "options": ["Fungi", "Rhizobium bacteria", "Viruses", "Green plants"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If set A = {1, 2, 3} and B = {3, 4, 5}, what is A ∩ B?",
+    "options": ["{1, 2, 3, 4, 5}", "{3}", "{1, 2, 4, 5}", "{}"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the HCF of 24 and 36?",
+    "options": ["6", "12", "24", "72"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the value of tan 45°?",
+    "options": ["0", "1", "√3", "1/√3"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Find the roots of the quadratic equation x^2 - 5x + 6 = 0.",
+    "options": ["2, 3", "-2, -3", "1, 6", "5, 6"],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the sum of the first 10 terms of an AP (a=2, d=3)?",
+    "options": ["155", "30", "170", "145"],
+    "answerIndex": 0
+  },
+  {
+    "question": "A cylinder has r=7 cm and h=10 cm. What is its curved surface area?",
+    "options": ["154 cm2", "440 cm2", "1540 cm2", "220 cm2"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the discriminant of the equation 2x^2 - 4x + 3 = 0?",
+    "options": ["8", "-8", "40", "0"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If sin θ = 3/5, then what is the value of cos θ?",
+    "options": ["4/5", "2/5", "5/3", "3/4"],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the mode of the data set: 2, 3, 3, 5, 7, 3, 2, 9, 3?",
+    "options": ["2", "3", "4", "5"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The probability of an event is 0.35. What is the probability of NOT happening?",
+    "options": ["0.35", "0.65", "1.35", "0"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If the area of a circle is 154 cm2, what is its circumference?",
+    "options": ["22 cm", "44 cm", "88 cm", "14 cm"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the sum of all interior angles of a pentagon?",
+    "options": ["360°", "540°", "720°", "180°"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following is an irrational number?",
+    "options": ["22/7", "π", "3.14", "√4"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the value of log10 1000?",
+    "options": ["1", "2", "3", "10"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The mean of 5 numbers is 20. If one is removed, mean is 18. Removed number is:",
+    "options": ["20", "28", "2", "18"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is the slope of a line parallel to the x-axis?",
+    "options": ["1", "0", "Undefined", "-1"],
+    "answerIndex": 1
+  },
+  {
+    "question": "In a triangle, if a^2 + b^2 = c^2, what is the angle opposite to side c?",
+    "options": ["45°", "60°", "90°", "180°"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If two circles touch each other externally, how many common tangents exist?",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the mid-point of the line joining (2, 4) and (6, 8)?",
+    "options": ["(4, 6)", "(8, 12)", "(2, 2)", "(4, 4)"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Elevation of a tower top from 30m away is 30°. What is the height?",
+    "options": ["30√3 m", "10√3 m", "30 m", "10 m"],
+    "answerIndex": 1
+  }
+]
