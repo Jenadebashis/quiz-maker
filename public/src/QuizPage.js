@@ -77,7 +77,7 @@ const QuizPage = ({ quizName, onQuizSubmit, token }) => {
       if (correctAnswer === answers[index]) {
         return acc + 1;
       }
-      return acc;
+      return acc - 0.25;
     }, 0);
 
     try {
