@@ -74,10 +74,20 @@ const QuizPage = ({ quizName, onQuizSubmit, token }) => {
     }
     const score = questions.reduce((acc, question, index) => {
       const correctAnswer = question.options[question.answerIndex];
-      if (correctAnswer === answers[index]) {
+      const userAnswer = answers[index];
+
+      // If no answer was selected for this question
+      if (!userAnswer) {
+        return acc;
+      }
+
+      // If the answer is correct
+      if (correctAnswer === userAnswer) {
         return acc + 1;
       }
-      return acc - 0.25;
+
+      // If the answer is wrong, reduce by 0.5
+      return acc - 0.5;
     }, 0);
 
     try {
