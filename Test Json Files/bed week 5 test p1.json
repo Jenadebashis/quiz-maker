@@ -1,0 +1,302 @@
+[
+  {
+    "question": "A particle moves in a circular path of radius R. What is its displacement after completing half a revolution?",
+    "options": ["Zero", "πR", "2R", "2πR"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The slope of a velocity-time graph represents which physical quantity?",
+    "options": ["Distance", "Displacement", "Acceleration", "Speed"],
+    "answerIndex": 2
+  },
+  {
+    "question": "An object starts from rest and accelerates at 4 m/s². What distance does it cover in the first 3 seconds?",
+    "options": ["6 m", "12 m", "18 m", "36 m"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If the kinetic energy of a body is doubled, its momentum becomes:",
+    "options": ["Half", "Double", "√2 times", "4 times"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Work done by a centripetal force on an object moving in a circle is:",
+    "options": ["Positive", "Negative", "Zero", "Infinite"],
+    "answerIndex": 2
+  },
+  {
+    "question": "A man of mass 50 kg climbs a ladder 10 m high. Calculate the work done (Take g = 10 m/s²):",
+    "options": ["50 J", "500 J", "5000 J", "50000 J"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The pressure exerted by a 500 N force on an area of 2 m² is:",
+    "options": ["1000 Pa", "250 Pa", "500 Pa", "125 Pa"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following remains constant in a uniform circular motion?",
+    "options": ["Velocity", "Speed", "Acceleration", "Displacement"],
+    "answerIndex": 1
+  },
+  {
+    "question": "A bullet of mass 10g is fired with a velocity of 400 m/s. Its kinetic energy is:",
+    "options": ["400 J", "800 J", "1600 J", "2000 J"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The relationship between kilowatt-hour (kWh) and Joules is:",
+    "options": ["1 kWh = 3.6 x 10³ J", "1 kWh = 3.6 x 10⁴ J", "1 kWh = 3.6 x 10⁶ J", "1 kWh = 3.6 x 10⁵ J"],
+    "answerIndex": 2
+  },
+  {
+    "question": "What happens to the atmospheric pressure as we move to higher altitudes?",
+    "options": ["Increases", "Decreases", "Remains same", "First increases then decreases"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The conservation of 'In-situ' refers to protecting species in:",
+    "options": ["Zoos", "Botanical Gardens", "Natural Habitats", "Laboratories"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which of the following is an example of Ex-situ conservation?",
+    "options": ["National Park", "Wildlife Sanctuary", "Seed Bank", "Biosphere Reserve"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The process of using resources wisely so they last for future generations is:",
+    "options": ["Exploitation", "Sustainable Development", "Urbanization", "Industrialization"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which layer of the atmosphere contains the ozone layer that protects us from UV rays?",
+    "options": ["Troposphere", "Stratosphere", "Mesosphere", "Exosphere"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Eutrophication in water bodies is primarily caused by an excess of:",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrates and Phosphates", "Lead"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The phenomenon of accumulation of non-biodegradable pesticides in a food chain is:",
+    "options": ["Eutrophication", "Biomagnification", "Biodegradation", "Pollution"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The primary cause of the Greenhouse Effect is the trapping of:",
+    "options": ["UV rays", "Infrared radiation", "X-rays", "Cosmic rays"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Kyoto Protocol is an international treaty aimed at reducing:",
+    "options": ["Water pollution", "Greenhouse gas emissions", "Biodiversity loss", "Ozone depletion"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of these is a secondary pollutant?",
+    "options": ["CO2", "SO2", "Ozone", "NO2"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The chipko movement originated in which state of India?",
+    "options": ["Odisha", "Uttarakhand", "Karnataka", "Kerala"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Simplify the index expression: (2⁴ * 2³) / 2⁵",
+    "options": ["2", "4", "8", "16"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If 3^(x-2) = 27, find the value of x:",
+    "options": ["3", "4", "5", "6"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Evaluate: (64)^(-1/3)",
+    "options": ["4", "1/4", "8", "1/8"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Find x if log₃(x) = 4:",
+    "options": ["12", "64", "81", "7"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The value of log₅(1/125) is:",
+    "options": ["3", "-3", "1/3", "-1/3"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Solve for x: log x + log 5 = 2 (assume base 10):",
+    "options": ["10", "20", "50", "100"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If log₂ 3 = a, then log₈ 27 is equal to:",
+    "options": ["a", "3a", "a/3", "a²"],
+    "answerIndex": 0
+  },
+  {
+    "question": "The antilog of 2.3010 is approximately:",
+    "options": ["20", "100", "200", "300"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If x = log_b a, then which of the following is true?",
+    "options": ["a^x = b", "b^x = a", "x^b = a", "a^b = x"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Solve the simultaneous equations: x + y = 10 and x - y = 4. The value of x is:",
+    "options": ["3", "7", "6", "14"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If one root of x² - 6x + k = 0 is 2, what is the value of k?",
+    "options": ["4", "8", "-8", "12"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The discriminant (D) of the quadratic equation 2x² - 4x + 3 = 0 is:",
+    "options": ["-8", "8", "4", "0"],
+    "answerIndex": 0
+  },
+  {
+    "question": "What is the nature of roots if D > 0 and D is a perfect square?",
+    "options": ["Real and equal", "Real, unequal and rational", "Real, unequal and irrational", "Imaginary"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Find the remainder when x³ - 2x² + x - 1 is divided by (x - 1):",
+    "options": ["0", "1", "-1", "2"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The sum of the roots of 3x² + 9x - 12 = 0 is:",
+    "options": ["3", "-3", "4", "-4"],
+    "answerIndex": 1
+  },
+  {
+    "question": "For what value of m will the equation x² - mx + 9 = 0 have equal roots?",
+    "options": ["3", "6", "9", "18"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Simplify the polynomial: (2x + 3)² - (2x - 3)²",
+    "options": ["24x", "8x²", "18", "0"],
+    "answerIndex": 0
+  },
+  {
+    "question": "If A = {x : x is a factor of 6} and B = {x : x is a factor of 8}, then A ∩ B is:",
+    "options": ["{1, 2}", "{1, 2, 3, 4, 6, 8}", "{3, 6}", "{4, 8}"],
+    "answerIndex": 0
+  },
+  {
+    "question": "The number of subsets of a set containing 5 elements is:",
+    "options": ["10", "25", "32", "64"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If n(A) = 10, n(B) = 12 and n(A ∪ B) = 18, find n(A ∩ B):",
+    "options": ["2", "4", "8", "6"],
+    "answerIndex": 1
+  },
+  {
+    "question": "A force of 20N is applied to a body at an angle of 60° to the horizontal. The horizontal component of force is:",
+    "options": ["10 N", "17.32 N", "20 N", "5 N"],
+    "answerIndex": 0
+  },
+  {
+    "question": "An object of mass 2kg is moving with 10 m/s. A force is applied to bring it to rest in 2 seconds. The force is:",
+    "options": ["5 N", "10 N", "20 N", "40 N"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The displacement 's' of a particle at time 't' is given by s = 2t² + 5. The velocity at t = 2s is:",
+    "options": ["8 m/s", "13 m/s", "4 m/s", "9 m/s"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Potential energy of an object of mass 'm' at height 'h' is given by:",
+    "options": ["1/2 mv²", "ma", "mgh", "F x s"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Pascal's Law is related to:",
+    "options": ["Energy", "Pressure in fluids", "Motion", "Gravity"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following elements has the highest electron affinity?",
+    "options": ["Fluorine", "Chlorine", "Bromine", "Iodine"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The electronic configuration 2, 8, 8, 1 belongs to which element?",
+    "options": ["Sodium", "Magnesium", "Potassium", "Calcium"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Transition elements are found in which block of the periodic table?",
+    "options": ["s-block", "p-block", "d-block", "f-block"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The Valency of Carbon is:",
+    "options": ["2", "4", "6", "8"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Water hyacinth is often referred to as:",
+    "options": ["Green Gold", "Terror of Bengal", "King of Plants", "Nature's Filter"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Red Data Book contains data of:",
+    "options": ["All animals", "All plants", "Endangered species", "Extinct species only"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Project Tiger was launched in India in the year:",
+    "options": ["1970", "1973", "1980", "1992"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which gas is the main contributor to Acid Rain?",
+    "options": ["CO2", "SO2", "CO", "CH4"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Find the value of (25)^(3/2):",
+    "options": ["75", "125", "625", "25"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If log x = -1, then x is:",
+    "options": ["0.1", "0.01", "1", "10"],
+    "answerIndex": 0
+  },
+  {
+    "question": "The zero of the polynomial p(x) = ax + b is:",
+    "options": ["b/a", "-b/a", "a/b", "-a/b"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The product of the roots of the equation 2x² - 8x + 6 = 0 is:",
+    "options": ["4", "3", "6", "-3"],
+    "answerIndex": 1
+  },
+  {
+    "question": "A set with no elements is called:",
+    "options": ["Universal set", "Finite set", "Null set", "Singleton set"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If A ⊂ B, then A ∩ B is equal to:",
+    "options": ["A", "B", "Null set", "Universal set"],
+    "answerIndex": 0
+  }
+]

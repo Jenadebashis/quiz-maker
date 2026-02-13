@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const LoginPage = ({ onLogin }) => {
+const LoginPage = ({ onLogin, onNavigate }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -46,6 +46,10 @@ const LoginPage = ({ onLogin }) => {
           <button type="submit">Login</button>
           {error && <p className="error">{error}</p>}
         </form>
+        <div>
+          <p className="register-text">Don't have an account?</p>
+          <button onClick={() => onNavigate('register')}>Register</button>
+        </div>
       </div>
     </div>
   );

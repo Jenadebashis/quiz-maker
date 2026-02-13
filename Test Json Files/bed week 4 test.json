@@ -1,0 +1,387 @@
+[
+  {
+    "question": "An element has atomic number 17 and mass number 35. The number of neutrons is:",
+    "options": ["17", "18", "35", "52"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which statement about isotopes is correct?",
+    "options": [
+      "They have same mass number",
+      "They differ in chemical properties",
+      "They have same atomic number but different neutrons",
+      "They differ in number of protons"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which of the following electronic configurations represents a noble gas?",
+    "options": ["2,8,7", "2,8,8", "2,8,1", "2,6"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which pair of elements will show similar chemical properties?",
+    "options": ["Na and Mg", "O and S", "C and N", "Ne and Ar"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which reaction will NOT obey the law of conservation of mass?",
+    "options": [
+      "Reaction in open container",
+      "Reaction in closed container",
+      "Combination reaction",
+      "Neutralization reaction"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "In the reaction: Fe2O3 + 3CO → 2Fe + 3CO2, the substance reduced is:",
+    "options": ["CO", "CO2", "Fe2O3", "Fe"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which change represents both oxidation and reduction simultaneously?",
+    "options": ["Rusting", "Respiration", "Redox reaction", "Decomposition"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Why are noble gases chemically inert?",
+    "options": [
+      "High atomic mass",
+      "Complete valence shell",
+      "Large atomic size",
+      "Low density"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following increases down a group?",
+    "options": [
+      "Electronegativity",
+      "Ionization energy",
+      "Atomic size",
+      "Non-metallic character"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Balance: Al + HCl → AlCl3 + H2. The coefficient of HCl is:",
+    "options": ["3", "4", "6", "2"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which reaction is both exothermic and oxidation?",
+    "options": ["Photosynthesis", "Respiration", "Decomposition of CaCO3", "Electrolysis"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which element has the highest electronegativity?",
+    "options": ["Oxygen", "Nitrogen", "Fluorine", "Chlorine"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If an element belongs to group 1, its valency is usually:",
+    "options": ["0", "1", "2", "8"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which law explains why atoms rearrange but do not disappear during reactions?",
+    "options": [
+      "Law of multiple proportions",
+      "Law of constant proportions",
+      "Law of conservation of mass",
+      "Avogadro’s law"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which element forms acidic oxide?",
+    "options": ["Sodium", "Calcium", "Sulphur", "Magnesium"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which element will form a divalent negative ion?",
+    "options": ["Oxygen", "Nitrogen", "Chlorine", "Carbon"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Why does rusting not occur in dry air?",
+    "options": [
+      "Lack of oxygen",
+      "Lack of water",
+      "Lack of iron",
+      "Low temperature"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following reactions is a double displacement reaction?",
+    "options": [
+      "Zn + HCl → ZnCl2 + H2",
+      "AgNO3 + NaCl → AgCl + NaNO3",
+      "CaCO3 → CaO + CO2",
+      "C + O2 → CO2"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which block element has variable valency?",
+    "options": ["s-block", "p-block", "d-block", "noble gases"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which factor does NOT affect rate of chemical reaction?",
+    "options": ["Temperature", "Catalyst", "Pressure", "Colour of reactants"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Which of the following is NOT a rational number?",
+    "options": ["0", "-5", "√9", "√7"],
+    "answerIndex": 3
+  },
+  {
+    "question": "If a:b = 3:4 and b:c = 6:8, then a:c is:",
+    "options": ["1:2", "3:4", "9:16", "6:8"],
+    "answerIndex": 0
+  },
+  {
+    "question": "The set {x | x² = 9} contains:",
+    "options": ["1 element", "2 elements", "3 elements", "No element"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which relation is reflexive?",
+    "options": [
+      "{(1,2),(2,1)}",
+      "{(1,1),(2,2)}",
+      "{(1,2),(2,3)}",
+      "{(2,1)}"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "If A ⊂ B and B ⊂ C, then:",
+    "options": [
+      "A ⊂ C",
+      "C ⊂ A",
+      "A = C",
+      "No relation"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which function is many-one?",
+    "options": [
+      "f(x)=x",
+      "f(x)=x+1",
+      "f(x)=x²",
+      "f(x)=2x+3"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "If f(x)=x², the function is:",
+    "options": ["One-one", "Onto", "Many-one", "Bijective"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If A={1,2,3}, number of relations on A is:",
+    "options": ["9", "27", "512", "81"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If x:y = 2:5 and y:z = 10:15, find x:z.",
+    "options": ["4:15", "2:3", "1:3", "4:9"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which is an equivalence relation?",
+    "options": [
+      "Reflexive only",
+      "Symmetric only",
+      "Reflexive, symmetric, transitive",
+      "Transitive only"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "The number of subsets of a set with n elements is:",
+    "options": ["n²", "2n", "2ⁿ", "n!"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which set is uncountable?",
+    "options": ["Natural numbers", "Integers", "Rational numbers", "Real numbers"],
+    "answerIndex": 3
+  },
+  {
+    "question": "If f(x)=1/(x−1), then x=1 is:",
+    "options": ["In range", "In domain", "Not in domain", "In co-domain"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If A ∪ B = A ∩ B, then:",
+    "options": ["A ⊂ B", "B ⊂ A", "A = B", "A ≠ B"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The product of a rational and irrational number is always:",
+    "options": [
+      "Rational",
+      "Irrational",
+      "Integer",
+      "Either rational or irrational"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "Which function is NOT invertible?",
+    "options": [
+      "f(x)=x+1",
+      "f(x)=x³",
+      "f(x)=x²",
+      "f(x)=2x"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "If f and g are both onto, then fog is:",
+    "options": ["Onto", "One-one", "Not onto", "Constant"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which relation is antisymmetric?",
+    "options": [
+      "≤ on real numbers",
+      "< on real numbers",
+      "≠ on real numbers",
+      "= on real numbers"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "question": "If A has 4 elements, number of equivalence relations possible is:",
+    "options": ["15", "16", "More than 16", "Exactly 4"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which of the following is a surjective function?",
+    "options": [
+      "f: R → R, f(x)=x²",
+      "f: R → R, f(x)=x³",
+      "f: N → N, f(x)=x+1",
+      "f: R → R, f(x)=eˣ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which cell organelle is involved in protein modification?",
+    "options": ["Ribosome", "Golgi apparatus", "Mitochondria", "Lysosome"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which organelle has its own DNA?",
+    "options": ["Golgi body", "Ribosome", "Mitochondria", "ER"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which plant group is considered the first land plants?",
+    "options": ["Algae", "Bryophyta", "Pteridophyta", "Gymnosperms"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Why are bryophytes called amphibians of plant kingdom?",
+    "options": [
+      "Live in water",
+      "Need water for fertilization",
+      "Have vascular tissues",
+      "Produce seeds"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which tissue is responsible for secondary growth in plants?",
+    "options": ["Xylem", "Phloem", "Cambium", "Parenchyma"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which class of vertebrates has three-chambered heart?",
+    "options": ["Pisces", "Amphibia", "Reptilia", "Aves"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which feature is common to both plants and animals?",
+    "options": ["Cell wall", "Chloroplast", "Mitochondria", "Large vacuole"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which phylum shows bilateral symmetry?",
+    "options": ["Porifera", "Cnidaria", "Platyhelminthes", "Echinodermata"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which organelle is responsible for intracellular digestion?",
+    "options": ["Ribosome", "Golgi body", "Lysosome", "ER"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which group of animals lacks backbone?",
+    "options": ["Chordata", "Vertebrata", "Invertebrata", "Mammalia"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which tissue conducts water in plants?",
+    "options": ["Phloem", "Xylem", "Cambium", "Cortex"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which plant group shows naked seeds?",
+    "options": ["Bryophyta", "Pteridophyta", "Gymnosperms", "Angiosperms"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which is the largest animal phylum?",
+    "options": ["Chordata", "Mollusca", "Arthropoda", "Annelida"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Why is mitochondria called semi-autonomous?",
+    "options": [
+      "Has ribosomes only",
+      "Has its own DNA",
+      "Can synthesize proteins independently",
+      "Lacks membrane"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which symmetry is found in starfish?",
+    "options": ["Bilateral", "Radial", "Asymmetrical", "Spherical"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which plant tissue provides mechanical support?",
+    "options": ["Parenchyma", "Collenchyma", "Phloem", "Xylem vessels"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which cell organelle is absent in prokaryotes?",
+    "options": ["Ribosome", "Cell membrane", "Nuclear membrane", "Cytoplasm"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which animal is triploblastic?",
+    "options": ["Hydra", "Planaria", "Sponge", "Jellyfish"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which group shows closed circulatory system?",
+    "options": ["Arthropoda", "Annelida", "Mollusca", "Echinodermata"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which organelle synthesizes lipids?",
+    "options": ["Rough ER", "Smooth ER", "Golgi body", "Ribosome"],
+    "answerIndex": 1
+  }
+]
