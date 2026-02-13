@@ -1,0 +1,302 @@
+[
+  {
+    "question": "A body is projected vertically upwards with a velocity u. It passes the same point at height h at times t1 and t2. The height h is equal to:",
+    "options": ["g*t1*t2", "1/2 * g*t1*t2", "2 * g*t1*t2", "g * (t1 + t2)"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The displacement of a particle is given by x = (t - 2)². The distance covered by the particle in the first 4 seconds is:",
+    "options": ["0 m", "4 m", "8 m", "16 m"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If the momentum of a body is increased by 50%, the percentage increase in its kinetic energy will be:",
+    "options": ["50%", "100%", "125%", "225%"],
+    "answerIndex": 2
+  },
+  {
+    "question": "A variable force F = 3x² acts on a particle. The work done in moving the particle from x = 1 to x = 3 is:",
+    "options": ["26 J", "27 J", "8 J", "19 J"],
+    "answerIndex": 0
+  },
+  {
+    "question": "In a perfectly elastic collision in one dimension, which of the following is true regarding the relative velocity of approach and separation?",
+    "options": ["V_approach = 2 * V_separation", "V_approach = V_separation", "V_approach = 1/2 * V_separation", "V_approach = -V_separation"],
+    "answerIndex": 1
+  },
+  {
+    "question": "A hydraulic lift works on the principle that pressure is transmitted equally in all directions. This is a direct application of:",
+    "options": ["Bernoulli's Principle", "Archimedes' Principle", "Pascal's Law", "Torricelli's Law"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The escape velocity from the surface of Earth is approximately 11.2 km/s. If a planet has twice the radius and the same density as Earth, its escape velocity is:",
+    "options": ["11.2 km/s", "22.4 km/s", "5.6 km/s", "44.8 km/s"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The terminal velocity of a spherical ball of radius r falling through a viscous liquid is proportional to:",
+    "options": ["r", "r²", "1/r", "1/r²"],
+    "answerIndex": 1
+  },
+  {
+    "question": "A car moves on a banked road of radius r with banking angle θ. The maximum safe speed without friction is:",
+    "options": ["√(rg tanθ)", "√(rg sinθ)", "√(rg cosθ)", "rg tanθ"],
+    "answerIndex": 0
+  },
+  {
+    "question": "In the context of biodiversity, 'The Sixth Extinction' or 'Holocene Extinction' is primarily attributed to:",
+    "options": ["Volcanic activity", "Asteroid impact", "Human activities", "Glaciation"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which international agreement specifically addresses the trade of endangered species of wild fauna and flora?",
+    "options": ["Montreal Protocol", "CITES", "Ramsar Convention", "Nagoya Protocol"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The concept of 'Key Stone Species' refers to a species that:",
+    "options": ["Is the most abundant in an ecosystem", "Has a disproportionately large effect on its environment", "Is the first to colonize a new area", "Is at the bottom of the food chain"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Bio-remediation is a technique used to:",
+    "options": ["Create new species", "Clean up polluted environments using organisms", "Increase agricultural yield", "Study deep sea life"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which of the following is the primary chemical responsible for the 'Antarctic Ozone Hole'?",
+    "options": ["Carbon dioxide", "Chlorofluorocarbons (CFCs)", "Methane", "Nitrous oxide"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The 'Minamata Disease' was caused by the consumption of fish contaminated with:",
+    "options": ["Lead", "Cadmium", "Methyl Mercury", "Arsenic"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Simplify: (x^a / x^b)^(a+b) * (x^b / x^c)^(b+c) * (x^c / x^a)^(c+a)",
+    "options": ["x", "x^(a+b+c)", "1", "0"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If log (a+b)/2 = 1/2 (log a + log b), then the relationship between a and b is:",
+    "options": ["a = b", "a = 2b", "b = 2a", "a² = b"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Solve for x: log₂ (log₃ (log₂ x)) = 1",
+    "options": ["2", "64", "512", "128"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The characteristic of the logarithm of a number depends on:",
+    "options": ["The value of the digits", "The position of the decimal point", "The base of the log", "The number of zeros"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If 2^x = 3^y = 12^z, then 1/z is equal to:",
+    "options": ["1/x + 1/y", "2/x + 1/y", "1/x + 2/y", "2/x + 2/y"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The value of log₂(log₂ 16) is:",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If log₁₀ 2 = 0.3010, the number of digits in 2⁶⁴ is:",
+    "options": ["18", "19", "20", "21"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Find the roots of the quadratic equation x² - (√3 + 1)x + √3 = 0:",
+    "options": ["√3, 1", "-√3, -1", "√3, -1", "1, -√3"],
+    "answerIndex": 0
+  },
+  {
+    "question": "If α and β are the roots of x² - px + q = 0, then the value of α² + β² is:",
+    "options": ["p² - 2q", "p² + 2q", "q² - 2p", "p² - q"],
+    "answerIndex": 0
+  },
+  {
+    "question": "The condition for the equations a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 to have infinitely many solutions is:",
+    "options": ["a1/a2 ≠ b1/b2", "a1/a2 = b1/b2 ≠ c1/c2", "a1/a2 = b1/b2 = c1/c2", "a1*a2 + b1*b2 = 0"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If x + 1/x = 3, then the value of x⁴ + 1/x⁴ is:",
+    "options": ["81", "79", "47", "51"],
+    "answerIndex": 2
+  },
+  {
+    "question": "According to the Remainder Theorem, if p(x) is divided by (ax + b), the remainder is:",
+    "options": ["p(b/a)", "p(-b/a)", "p(a/b)", "p(-a/b)"],
+    "answerIndex": 1
+  },
+  {
+    "question": "A polynomial p(x) of degree n has exactly:",
+    "options": ["n-1 zeros", "n zeros", "n+1 zeros", "Infinitely many zeros"],
+    "answerIndex": 1
+  },
+  {
+    "question": "If (x - 2) is a factor of x² + kx + 4, then k is:",
+    "options": ["4", "-4", "2", "-2"],
+    "answerIndex": 1
+  },
+  {
+    "question": "In Set Theory, the law A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) is called:",
+    "options": ["Associative Law", "Commutative Law", "Distributive Law", "De Morgan's Law"],
+    "answerIndex": 2
+  },
+  {
+    "question": "If n(A) = p and n(B) = q, the total number of non-empty relations from A to B is:",
+    "options": ["2^(pq)", "2^(pq) - 1", "pq", "2^p * 2^q"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The power set of a null set has how many elements?",
+    "options": ["0", "1", "2", "Infinite"],
+    "answerIndex": 1
+  },
+  {
+    "question": "According to the Heisenberg Uncertainty Principle, it is impossible to simultaneously measure precisely the:",
+    "options": ["Mass and Charge", "Position and Momentum", "Energy and Mass", "Spin and Velocity"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The shape of an orbital is determined by which quantum number?",
+    "options": ["Principal (n)", "Azimuthal (l)", "Magnetic (ml)", "Spin (ms)"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The maximum number of electrons that can be accommodated in a f-subshell is:",
+    "options": ["2", "6", "10", "14"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Which rule states that 'Electrons enter orbitals of lowest energy first'?",
+    "options": ["Hund's Rule", "Pauli's Exclusion Principle", "Aufbau Principle", "Octet Rule"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Electronegativity is measured on which of the following scales?",
+    "options": ["Mohs Scale", "Pauling Scale", "Richter Scale", "Kelvin Scale"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The bond angle in a water (H2O) molecule is approximately:",
+    "options": ["180°", "120°", "109.5°", "104.5°"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Which of the following molecules has a permanent dipole moment?",
+    "options": ["CO2", "CH4", "NH3", "BF3"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The functional unit of the environment is:",
+    "options": ["Biome", "Biosphere", "Ecosystem", "Community"],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the 10% law in an ecosystem?",
+    "options": ["Only 10% of light is absorbed by plants", "Only 10% of energy is transferred to the next trophic level", "10% of species go extinct every decade", "10% of water is recycled"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following is an example of an inverted pyramid of numbers?",
+    "options": ["Grassland ecosystem", "Pond ecosystem", "Parasitic food chain on a tree", "Forest ecosystem"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The first National Park established in India was:",
+    "options": ["Kaziranga", "Jim Corbett", "Gir", "Kanha"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Biological Oxygen Demand (BOD) is a measure of:",
+    "options": ["Industrial waste", "Dissolved oxygen needed by microbes to decompose organic waste", "Oxygen produced by algae", "Total oxygen in the atmosphere"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following is a 'Greenhouse Gas' that is also a product of anaerobic digestion in wetlands?",
+    "options": ["N2O", "CH4", "CFC", "O3"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The value of (√3 + i)³ is:",
+    "options": ["8", "8i", "-8i", "1"],
+    "answerIndex": 1
+  },
+  {
+    "question": "In the expansion of (x + a)^n, the general term T_(r+1) is:",
+    "options": ["nCr * x^(n-r) * a^r", "nCr * x^r * a^(n-r)", "nPr * x^(n-r) * a^r", "nCr * x^n * a^r"],
+    "answerIndex": 0
+  },
+  {
+    "question": "If sin θ + cos θ = √2, then θ is:",
+    "options": ["30°", "45°", "60°", "90°"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The period of the function f(x) = sin(2x) is:",
+    "options": ["π", "2π", "π/2", "4π"],
+    "answerIndex": 0
+  },
+  {
+    "question": "The height of a tower is h. If the angle of elevation of the top of the tower from a point on the ground is 45°, the distance from the point to the foot of the tower is:",
+    "options": ["h", "h√2", "h/√2", "2h"],
+    "answerIndex": 0
+  },
+  {
+    "question": "If tan A = 1/2 and tan B = 1/3, then A + B is:",
+    "options": ["30°", "45°", "60°", "90°"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The distance between the points (a cos θ, a sin θ) and (0, 0) is:",
+    "options": ["a", "a²", "1", "0"],
+    "answerIndex": 0
+  },
+  {
+    "question": "The centroid of a triangle with vertices (x1, y1), (x2, y2), and (x3, y3) is:",
+    "options": ["((x1+x2+x3)/2, (y1+y2+y3)/2)", "((x1+x2+x3)/3, (y1+y2+y3)/3)", "(x1x2x3, y1y2y3)", "(x1+x2, y1+y2)"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The slope of the line perpendicular to 2x + 3y + 7 = 0 is:",
+    "options": ["-2/3", "2/3", "3/2", "-3/2"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Which organelle is semi-autonomous and has its own DNA?",
+    "options": ["Lysosome", "Ribosome", "Mitochondria", "Golgi Body"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The crossing over of chromosomes takes place during which stage of meiosis?",
+    "options": ["Leptotene", "Zygotene", "Pachytene", "Diplotene"],
+    "answerIndex": 2
+  },
+  {
+    "question": "The process of programmed cell death is known as:",
+    "options": ["Necrosis", "Apoptosis", "Autolysis", "Mitosis"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which of the following is a stop codon in the genetic code?",
+    "options": ["AUG", "UAA", "GUG", "UUU"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The primary enzyme responsible for DNA replication is:",
+    "options": ["RNA Polymerase", "DNA Polymerase", "Ligase", "Helicase"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The pH of human blood is approximately:",
+    "options": ["6.4", "7.0", "7.4", "8.0"],
+    "answerIndex": 2
+  }
+]
