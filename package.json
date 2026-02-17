@@ -30,6 +30,7 @@
     "mongoose": "^8.20.1",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
+    "react-katex": "^3.1.0",
     "sqlite3": "^5.1.6",
     "style-loader": "^4.0.0",
     "uuid": "^9.0.0"

@@ -394,3 +394,8 @@
 .view-explanation-btn:hover {
   background-color: #0056b3;
 }
+
+.katex {
+  font-size: 1.1em; /* Makes formulas slightly easier to read */
+  color: #1e293b;   /* Matches your header text color */
+}

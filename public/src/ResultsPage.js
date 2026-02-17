@@ -1,22 +1,42 @@
-import React, { useState } from 'react';
+import React from 'react';
+import 'katex/dist/katex.min.css';
+import { InlineMath, BlockMath } from 'react-katex';
 
-// A simple Modal component to display the explanation
-const ExplanationModal = ({ explanation, onClose }) => (
-  <div className="modal-overlay" onClick={onClose}>
-    <div className="modal-card" onClick={(e) => e.stopPropagation()}>
-      <div className="modal-header">
-        <h3>💡 Concept Deep-Dive</h3>
-        <button className="close-x" onClick={onClose}>&times;</button>
-      </div>
-      <div className="modal-body">
-        <p className="explanation-text">{explanation}</p>
-      </div>
-      <div className="modal-footer">
-        <button className="done-button" onClick={onClose}>Got it!</button>
+const ExplanationModal = ({ explanation, onClose }) => {
+  // Helper to split text and identify math vs plain text
+  const renderContent = (text) => {
+    // This regex looks for content between $ symbols
+    const parts = text.split(/(\$.*?\$)/g);
+    
+    return parts.map((part, index) => {
+      if (part.startsWith('$') && part.endsWith('$')) {
+        // Remove the $ signs and render as math
+        const mathContent = part.slice(1, -1);
+        return <InlineMath key={index} math={mathContent} />;
+      }
+      return <span key={index}>{part}</span>;
+    });
+  };
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-card" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-header">
+          <h3>💡 Concept Deep-Dive</h3>
+          <button className="close-x" onClick={onClose}>&times;</button>
+        </div>
+        <div className="modal-body">
+          <div className="explanation-text">
+            {renderContent(explanation)}
+          </div>
+        </div>
+        <div className="modal-footer">
+          <button className="done-button" onClick={onClose}>Got it!</button>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 const ResultsPage = ({ questions, answers, onRestartQuiz }) => {
   const [activeExplanation, setActiveExplanation] = useState(null);
