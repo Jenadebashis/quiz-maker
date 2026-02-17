@@ -3,10 +3,17 @@ import React, { useState } from 'react';
 // A simple Modal component to display the explanation
 const ExplanationModal = ({ explanation, onClose }) => (
   <div className="modal-overlay" onClick={onClose}>
-    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-      <h3>Explanation</h3>
-      <p>{explanation}</p>
-      <button className="close-modal-button" onClick={onClose}>Close</button>
+    <div className="modal-card" onClick={(e) => e.stopPropagation()}>
+      <div className="modal-header">
+        <h3>💡 Concept Deep-Dive</h3>
+        <button className="close-x" onClick={onClose}>&times;</button>
+      </div>
+      <div className="modal-body">
+        <p className="explanation-text">{explanation}</p>
+      </div>
+      <div className="modal-footer">
+        <button className="done-button" onClick={onClose}>Got it!</button>
+      </div>
     </div>
   </div>
 );
