@@ -79,30 +79,103 @@ body {
   margin-bottom: 10px;
 }
 
-
-/* Modal Overlay: Darkens the background */
+/* Darker, blurred overlay */
 .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(15, 23, 42, 0.7); /* Slate-900 with transparency */
+  backdrop-filter: blur(4px); /* Modern blur effect */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  animation: fadeIn 0.2s ease-out;
 }
 
-/* Modal Box */
-.modal-content {
-  background: white;
-  padding: 2rem;
-  border-radius: 8px;
-  max-width: 500px;
+/* The Modal Card */
+.modal-card {
+  background: #ffffff;
   width: 90%;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  color: #333;
+  max-width: 550px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  animation: slideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); /* Bouncy entrance */
+}
+
+/* Header Area */
+.modal-header {
+  padding: 1.25rem 1.5rem;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: #1e293b;
+  font-size: 1.25rem;
+}
+
+.close-x {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #64748b;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close-x:hover { color: #ef4444; }
+
+/* Body Area */
+.modal-body {
+  padding: 1.5rem;
+  line-height: 1.6;
+  color: #334155;
+  font-size: 1.1rem;
+}
+
+.explanation-text {
+  margin: 0;
+  white-space: pre-wrap; /* Preserves formatting of your explanations */
+}
+
+/* Footer Area */
+.modal-footer {
+  padding: 1rem 1.5rem;
+  background: #f8fafc;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.done-button {
+  background: #2563eb;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.done-button:hover { background: #1d4ed8; }
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px) scale(0.95); opacity: 0; }
+  to { transform: translateY(0) scale(1); opacity: 1; }
 }
 
 .view-explanation-btn {
@@ -117,10 +190,4 @@ body {
 
 .view-explanation-btn:hover {
   background-color: #0056b3;
-}
-
-.close-modal-button {
-  margin-top: 15px;
-  padding: 8px 16px;
-  cursor: pointer;
 }
