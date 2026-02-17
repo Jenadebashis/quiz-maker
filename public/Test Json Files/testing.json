@@ -1,0 +1,362 @@
+[
+  {
+    "question": "A body is projected vertically upwards with a velocity u. It passes the same point at height h at times t1 and t2. The height h is equal to:",
+    "options": ["g*t1*t2", "1/2 * g*t1*t2", "2 * g*t1*t2", "g * (t1 + t2)"],
+    "answerIndex": 1,
+    "explanation": "Using the equation of motion $s = ut + \\frac{1}{2}at^2$, for vertical motion we get $h = ut - \\frac{1}{2}gt^2$. Rearranging into a quadratic equation: $\\frac{1}{2}gt^2 - ut + h = 0$. The times $t_1$ and $t_2$ are the roots. The product of roots is $t_1 t_2 = \\frac{h}{g/2} = \\frac{2h}{g}$. Thus, $h = \\frac{1}{2}gt_1t_2$. Key B.Ed point: Total time of flight is $T = t_1 + t_2 = \\frac{2u}{g}$."
+  },
+  {
+    "question": "The displacement of a particle is given by x = (t - 2)². The distance covered by the particle in the first 4 seconds is:",
+    "options": ["0 m", "4 m", "8 m", "16 m"],
+    "answerIndex": 2,
+    "explanation": "Distance is the total path length. At $t=0$, $x=4$. At $t=2$, $x=0$. At $t=4$, $x=4$. The particle moves from $x=4$ to $x=0$ (4 meters) and then from $x=0$ back to $x=4$ (another 4 meters). Total distance = $4 + 4 = 8$ m. Note: Displacement would be 0, but distance counts the return journey."
+  },
+  {
+    "question": "If the momentum of a body is increased by 50%, the percentage increase in its kinetic energy will be:",
+    "options": ["50%", "100%", "125%", "225%"],
+    "answerIndex": 2,
+    "explanation": "Kinetic Energy $K = \\frac{p^2}{2m}$. If momentum $p$ increases by 50%, the new momentum $p' = 1.5p$. New $K' = \\frac{(1.5p)^2}{2m} = 2.25K$. The percentage increase is $(2.25 - 1) \\times 100 = 125\\%$. In B.Ed exams, remember that if $p$ doubles, $K$ increases by 300%."
+  },
+  {
+    "question": "A variable force F = 3x² acts on a particle. The work done in moving the particle from x = 1 to x = 3 is:",
+    "options": ["26 J", "27 J", "8 J", "19 J"],
+    "answerIndex": 0,
+    "explanation": "Work done by a variable force is $W = \\int F dx$. Here, $W = \\int_{1}^{3} 3x^2 dx = [x^3]_{1}^{3} = 3^3 - 1^3 = 27 - 1 = 26$ J. Wrong options like 27 result from forgetting to subtract the lower limit."
+  },
+  {
+    "question": "In a perfectly elastic collision in one dimension, which of the following is true regarding the relative velocity of approach and separation?",
+    "options": ["V_approach = 2 * V_separation", "V_approach = V_separation", "V_approach = 1/2 * V_separation", "V_approach = -V_separation"],
+    "answerIndex": 1,
+    "explanation": "In a perfectly elastic collision, the coefficient of restitution $e = 1$. Since $e = \\frac{V_{\\text{separation}}}{V_{\\text{approach}}}$, it follows that $V_{\\text{approach}} = V_{\\text{separation}}$. For inelastic collisions, $e < 1$, meaning $V_{\\text{separation}}$ is less than $V_{\\text{approach}}$."
+  },
+  {
+    "question": "A hydraulic lift works on the principle that pressure is transmitted equally in all directions. This is a direct application of:",
+    "options": ["Bernoulli's Principle", "Archimedes' Principle", "Pascal's Law", "Torricelli's Law"],
+    "answerIndex": 2,
+    "explanation": "Pascal's Law states that pressure applied to an enclosed fluid is transmitted undiminished. Bernoulli's relates to fluid speed/pressure (wings), Archimedes' to buoyancy, and Torricelli's to the speed of efflux from a tank. Hydraulic brakes and lifts are classic Pascal's Law applications."
+  },
+  {
+    "question": "The escape velocity from the surface of Earth is approximately 11.2 km/s. If a planet has twice the radius and the same density as Earth, its escape velocity is:",
+    "options": ["11.2 km/s", "22.4 km/s", "5.6 km/s", "44.8 km/s"],
+    "answerIndex": 1,
+    "explanation": "Escape velocity $v_e = R \\sqrt{\\frac{8}{3}\\pi G\\rho}$. If density $\\rho$ is constant, $v_e \\propto R$. Doubling the radius $R$ doubles the escape velocity. $11.2 \\times 2 = 22.4$ km/s. If the question said 'same mass', the answer would be different ($v_e \\propto \\frac{1}{\\sqrt{R}}$)."
+  },
+  {
+    "question": "The terminal velocity of a spherical ball of radius r falling through a viscous liquid is proportional to:",
+    "options": ["r", "r²", "1/r", "1/r²"],
+    "answerIndex": 1,
+    "explanation": "According to Stokes' Law, terminal velocity $V_t = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta}$. Thus, $V_t \\propto r^2$. Note that the viscous drag force $F$ itself is proportional to $r$, but the terminal velocity is proportional to the square of the radius."
+  },
+  {
+    "question": "A car moves on a banked road of radius r with banking angle θ. The maximum safe speed without friction is:",
+    "options": ["√(rg tanθ)", "√(rg sinθ)", "√(rg cosθ)", "rg tanθ"],
+    "answerIndex": 0,
+    "explanation": "For a banked road without friction, the horizontal component of normal force provides centripetal force ($N \\sin \\theta = \\frac{mv^2}{r}$) and the vertical component balances gravity ($N \\cos \\theta = mg$). Dividing them gives $\\tan \\theta = \\frac{v^2}{rg}$, so $v = \\sqrt{rg \\tan \\theta}$."
+  },
+  {
+    "question": "In the context of biodiversity, 'The Sixth Extinction' or 'Holocene Extinction' is primarily attributed to:",
+    "options": ["Volcanic activity", "Asteroid impact", "Human activities", "Glaciation"],
+    "answerIndex": 2,
+    "explanation": "While previous mass extinctions were caused by natural disasters like volcanoes or asteroids, the 'Sixth Extinction' is anthropogenic, caused by human activities like habitat destruction, overexploitation, and climate change."
+  },
+  {
+    "question": "Which international agreement specifically addresses the trade of endangered species of wild fauna and flora?",
+    "options": ["Montreal Protocol", "CITES", "Ramsar Convention", "Nagoya Protocol"],
+    "answerIndex": 1,
+    "explanation": "CITES (Convention on International Trade in Endangered Species) focuses on wildlife trade. Montreal Protocol is for the Ozone layer, Ramsar is for Wetlands, and Nagoya is for genetic resource sharing. B.Ed tip: Memorize the 'focus' of each major environmental treaty."
+  },
+  {
+    "question": "The concept of 'Key Stone Species' refers to a species that:",
+    "options": ["Is the most abundant in an ecosystem", "Has a disproportionately large effect on its environment", "Is the first to colonize a new area", "Is at the bottom of the food chain"],
+    "answerIndex": 1,
+    "explanation": "A keystone species (like the tiger or sea otter) maintains the structure of an ecosystem. Its impact is much larger than its population size would suggest. An abundant species is a 'Dominant' species; the first to colonize is a 'Pioneer' species."
+  },
+  {
+    "question": "Bio-remediation is a technique used to:",
+    "options": ["Create new species", "Clean up polluted environments using organisms", "Increase agricultural yield", "Study deep sea life"],
+    "answerIndex": 2,
+    "explanation": "Bioremediation uses living organisms (mostly microbes or plants) to remove or neutralize pollutants from a contaminated site. If plants specifically are used, it is called Phytoremediation."
+  },
+  {
+    "question": "Which of the following is the primary chemical responsible for the 'Antarctic Ozone Hole'?",
+    "options": ["Carbon dioxide", "Chlorofluorocarbons (CFCs)", "Methane", "Nitrous oxide"],
+    "answerIndex": 1,
+    "explanation": "CFCs release chlorine atoms when exposed to UV radiation in the stratosphere, which then catalytically destroy ozone molecules. $CO_2$ and Methane are greenhouse gases (Global Warming) but do not cause ozone depletion directly."
+  },
+  {
+    "question": "The 'Minamata Disease' was caused by the consumption of fish contaminated with:",
+    "options": ["Lead", "Cadmium", "Methyl Mercury", "Arsenic"],
+    "answerIndex": 2,
+    "explanation": "Minamata disease is caused by Mercury poisoning. Cadmium causes 'Itai-Itai' disease. Lead affects the nervous system (Plumbism). This is a common environmental health question in Odisha B.Ed exams."
+  },
+  {
+    "question": "Simplify: (x^a / x^b)^(a+b) * (x^b / x^c)^(b+c) * (x^c / x^a)^(c+a)",
+    "options": ["x", "x^(a+b+c)", "1", "0"],
+    "answerIndex": 2,
+    "explanation": "Using exponent rules: $(x^{a-b})^{a+b} \\cdot (x^{b-c})^{b+c} \\cdot (x^{c-a})^{c+a}$. This becomes $x^{a^2-b^2} \\cdot x^{b^2-c^2} \\cdot x^{c^2-a^2}$. Adding exponents: $x^{(a^2-b^2 + b^2-c^2 + c^2-a^2)} = x^0 = 1$."
+  },
+  {
+    "question": "If log (a+b)/2 = 1/2 (log a + log b), then the relationship between a and b is:",
+    "options": ["a = b", "a = 2b", "b = 2a", "a² = b"],
+    "answerIndex": 0,
+    "explanation": "$\\log(\\frac{a+b}{2}) = \\log(ab)^{1/2} \\implies \\frac{a+b}{2} = \\sqrt{ab} \\implies a+b = 2\\sqrt{ab}$. Squaring both sides: $a^2 + b^2 + 2ab = 4ab \\implies a^2 + b^2 - 2ab = 0 \\implies (a-b)^2 = 0 \\implies a=b$."
+  },
+  {
+    "question": "Solve for x: log₂ (log₃ (log₂ x)) = 1",
+    "options": ["2", "64", "512", "128"],
+    "answerIndex": 2,
+    "explanation": "Work from outside in: $\\log_3(\\log_2 x) = 2^1 = 2$. Then $\\log_2 x = 3^2 = 9$. Finally $x = 2^9 = 512$. Key: $\\log_b a = c \\implies a = b^c$."
+  },
+  {
+    "question": "The characteristic of the logarithm of a number depends on:",
+    "options": ["The value of the digits", "The position of the decimal point", "The base of the log", "The number of zeros"],
+    "answerIndex": 1,
+    "explanation": "A logarithm has two parts: Characteristic (integral part) and Mantissa (fractional part). The characteristic depends solely on the position of the decimal point (the order of magnitude), while the mantissa depends on the digits."
+  },
+  {
+    "question": "If 2^x = 3^y = 12^z, then 1/z is equal to:",
+    "options": ["1/x + 1/y", "2/x + 1/y", "1/x + 2/y", "2/x + 2/y"],
+    "answerIndex": 1,
+    "explanation": "Let $2^x = 3^y = 12^z = k$. Then $2=k^{1/x}, 3=k^{1/y}, 12=k^{1/z}$. Since $12 = 2^2 \\cdot 3$, we substitute: $k^{1/z} = (k^{1/x})^2 \\cdot k^{1/y} = k^{2/x + 1/y}$. Thus, $1/z = 2/x + 1/y$."
+  },
+  {
+    "question": "The value of log₂(log₂ 16) is:",
+    "options": ["1", "2", "3", "4"],
+    "answerIndex": 1,
+    "explanation": "$\\log_2 16 = 4$ (because $2^4 = 16$). So the expression is $\\log_2 4$. Since $2^2 = 4$, $\\log_2 4 = 2$. This tests nested logarithm rules."
+  },
+  {
+    "question": "If log₁₀ 2 = 0.3010, the number of digits in 2⁶⁴ is:",
+    "options": ["18", "19", "20", "21"],
+    "answerIndex": 2,
+    "explanation": "Let $y = 2^{64}$. $\\log y = 64 \\log 2 = 64 \\times 0.3010 = 19.264$. The number of digits is (Characteristic + 1) = $19 + 1 = 20$. B.Ed tip: Always add 1 to the integer part of the log to find digits."
+  },
+  {
+    "question": "Find the roots of the quadratic equation x² - (√3 + 1)x + √3 = 0:",
+    "options": ["√3, 1", "-√3, -1", "√3, -1", "1, -√3"],
+    "answerIndex": 0,
+    "explanation": "The equation is in the form $x^2 - (\\alpha + \\beta)x + \\alpha\\beta = 0$. Comparing, sum of roots is $\\sqrt{3}+1$ and product is $\\sqrt{3}$. The numbers $\\sqrt{3}$ and $1$ satisfy both conditions. Thus, roots are $\\sqrt{3}, 1$."
+  },
+  {
+    "question": "If α and β are the roots of x² - px + q = 0, then the value of α² + β² is:",
+    "options": ["p² - 2q", "p² + 2q", "q² - 2p", "p² - q"],
+    "answerIndex": 0,
+    "explanation": "Sum of roots $\\alpha + \\beta = p$ and product $\\alpha\\beta = q$. Using identity $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = p^2 - 2q$. This identity is a favorite for B.Ed algebra sections."
+  },
+  {
+    "question": "The condition for the equations a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 to have infinitely many solutions is:",
+    "options": ["a1/a2 ≠ b1/b2", "a1/a2 = b1/b2 ≠ c1/c2", "a1/a2 = b1/b2 = c1/c2", "a1*a2 + b1*b2 = 0"],
+    "answerIndex": 2,
+    "explanation": "Infinitely many solutions occur when the lines coincide, which requires the ratios of all coefficients to be equal. $a_1/a_2 \\neq b_1/b_2$ gives a unique solution; $a_1/a_2 = b_1/b_2 \\neq c_1/c_2$ gives no solution (parallel lines)."
+  },
+  {
+    "question": "If x + 1/x = 3, then the value of x⁴ + 1/x⁴ is:",
+    "options": ["81", "79", "47", "51"],
+    "answerIndex": 2,
+    "explanation": "Squaring once: $x^2 + 1/x^2 + 2 = 9 \\implies x^2 + 1/x^2 = 7$. Squaring again: $x^4 + 1/x^4 + 2 = 49 \\implies x^4 + 1/x^4 = 47$."
+  },
+  {
+    "question": "According to the Remainder Theorem, if p(x) is divided by (ax + b), the remainder is:",
+    "options": ["p(b/a)", "p(-b/a)", "p(a/b)", "p(-a/b)"],
+    "answerIndex": 1,
+    "explanation": "To find the remainder when $p(x)$ is divided by a linear factor, set the factor to zero: $ax + b = 0 \\implies x = -b/a$. The remainder is $p(-b/a)$."
+  },
+  {
+    "question": "A polynomial p(x) of degree n has exactly:",
+    "options": ["n-1 zeros", "n zeros", "n+1 zeros", "Infinitely many zeros"],
+    "answerIndex": 1,
+    "explanation": "The Fundamental Theorem of Algebra states that a polynomial of degree $n$ has exactly $n$ complex zeros (including multiplicities)."
+  },
+  {
+    "question": "If (x - 2) is a factor of x² + kx + 4, then k is:",
+    "options": ["4", "-4", "2", "-2"],
+    "answerIndex": 1,
+    "explanation": "If $(x-2)$ is a factor, then $p(2) = 0$. Substituting $x=2$: $2^2 + k(2) + 4 = 0 \\implies 4 + 2k + 4 = 0 \\implies 2k = -8 \\implies k = -4$."
+  },
+  {
+    "question": "In Set Theory, the law A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) is called:",
+    "options": ["Associative Law", "Commutative Law", "Distributive Law", "De Morgan's Law"],
+    "answerIndex": 2,
+    "explanation": "This is the Distributive Law of Union over Intersection. De Morgan's Law involves complements, like $(A \\cup B)' = A' \\cap B'$. Associative law involves moving brackets with the same operator: $A \\cup (B \\cup C) = (A \\cup B) \\cup C$."
+  },
+  {
+    "question": "If n(A) = p and n(B) = q, the total number of non-empty relations from A to B is:",
+    "options": ["2^(pq)", "2^(pq) - 1", "pq", "2^p * 2^q"],
+    "answerIndex": 1,
+    "explanation": "Total number of relations is $2^{n(A \\times B)} = 2^{pq}$. This includes the empty relation (null set). The number of 'non-empty' relations is $2^{pq} - 1$."
+  },
+  {
+    "question": "The power set of a null set has how many elements?",
+    "options": ["0", "1", "2", "Infinite"],
+    "answerIndex": 1,
+    "explanation": "A null set $\\emptyset$ has 0 elements. The number of elements in a power set is $2^n$. So, $2^0 = 1$. The only element in $P(\\emptyset)$ is $\\emptyset$ itself."
+  },
+  {
+    "question": "According to the Heisenberg Uncertainty Principle, it is impossible to simultaneously measure precisely the:",
+    "options": ["Mass and Charge", "Position and Momentum", "Energy and Mass", "Spin and Velocity"],
+    "answerIndex": 1,
+    "explanation": "The principle states $\\Delta x \\cdot \\Delta p \\geq \\frac{h}{4\\pi}$. This means the more precisely we know position ($x$), the less precisely we know momentum ($p$)."
+  },
+  {
+    "question": "The shape of an orbital is determined by which quantum number?",
+    "options": ["Principal (n)", "Azimuthal (l)", "Magnetic (ml)", "Spin (ms)"],
+    "answerIndex": 1,
+    "explanation": "Azimuthal ($l$) determines shape ($0=s$:spherical, $1=p$:dumbbell). Principal ($n$) determines size/energy. Magnetic ($m_l$) determines spatial orientation. Spin ($m_s$) determines the direction of electron rotation."
+  },
+  {
+    "question": "The maximum number of electrons that can be accommodated in a f-subshell is:",
+    "options": ["2", "6", "10", "14"],
+    "answerIndex": 3,
+    "explanation": "For an f-subshell, $l = 3$. The number of orbitals is $2l + 1 = 7$. Each orbital holds 2 electrons, so $7 \\times 2 = 14$ electrons. (s=2, p=6, d=10, f=14)."
+  },
+  {
+    "question": "Which rule states that 'Electrons enter orbitals of lowest energy first'?",
+    "options": ["Hund's Rule", "Pauli's Exclusion Principle", "Aufbau Principle", "Octet Rule"],
+    "answerIndex": 2,
+    "explanation": "Aufbau is German for 'building up'. Hund's Rule says electrons fill subshells singly before pairing. Pauli states no two electrons can have all 4 same quantum numbers."
+  },
+  {
+    "question": "Electronegativity is measured on which of the following scales?",
+    "options": ["Mohs Scale", "Pauling Scale", "Richter Scale", "Kelvin Scale"],
+    "answerIndex": 1,
+    "explanation": "Linus Pauling developed the Pauling Scale. Mohs is for mineral hardness, Richter for earthquake intensity, and Kelvin for temperature."
+  },
+  {
+    "question": "The bond angle in a water (H2O) molecule is approximately:",
+    "options": ["180°", "120°", "109.5°", "104.5°"],
+    "answerIndex": 3,
+    "explanation": "In $H_2O$, Oxygen is $sp^3$ hybridized (ideal angle $109.5^\\circ$). However, the two lone pairs on oxygen repel the bond pairs more strongly (VSEPR theory), compressing the angle to $104.5^\\circ$."
+  },
+  {
+    "question": "Which of the following molecules has a permanent dipole moment?",
+    "options": ["CO2", "CH4", "NH3", "BF3"],
+    "answerIndex": 2,
+    "explanation": "$CO_2$ and $BF_3$ are symmetrical, so their bond dipoles cancel out. $CH_4$ is also non-polar. $NH_3$ (Ammonia) has a pyramidal shape with a lone pair, making it polar with a permanent dipole."
+  },
+  {
+    "question": "The functional unit of the environment is:",
+    "options": ["Biome", "Biosphere", "Ecosystem", "Community"],
+    "answerIndex": 2,
+    "explanation": "An ecosystem is the basic functional unit where living organisms interact with their non-living environment. A biome is a collection of ecosystems with similar climate; the biosphere is the global sum of all ecosystems."
+  },
+  {
+    "question": "What is the 10% law in an ecosystem?",
+    "options": ["Only 10% of light is absorbed by plants", "Only 10% of energy is transferred to the next trophic level", "10% of species go extinct every decade", "10% of water is recycled"],
+    "answerIndex": 1,
+    "explanation": "Proposed by Raymond Lindeman, this law states that only about 10% of energy is passed from one trophic level to the next; the rest is lost as heat or used in metabolism."
+  },
+  {
+    "question": "Which of the following is an example of an inverted pyramid of numbers?",
+    "options": ["Grassland ecosystem", "Pond ecosystem", "Parasitic food chain on a tree", "Forest ecosystem"],
+    "answerIndex": 2,
+    "explanation": "On a single large tree, thousands of insects (parasites) can feed. Thus, the number of individuals increases as we go up the trophic levels, making the pyramid inverted. Pyramids of energy are *always* upright."
+  },
+  {
+    "question": "The first National Park established in India was:",
+    "options": ["Kaziranga", "Jim Corbett", "Gir", "Kanha"],
+    "answerIndex": 1,
+    "explanation": "Jim Corbett National Park in Uttarakhand was established in 1936 (initially as Hailey National Park). Important GK fact for B.Ed."
+  },
+  {
+    "question": "Biological Oxygen Demand (BOD) is a measure of:",
+    "options": ["Industrial waste", "Dissolved oxygen needed by microbes to decompose organic waste", "Oxygen produced by algae", "Total oxygen in the atmosphere"],
+    "answerIndex": 1,
+    "explanation": "High BOD indicates that the water is highly polluted with organic matter because microbes are consuming more oxygen to break it down. Low BOD means clean water."
+  },
+  {
+    "question": "Which of the following is a 'Greenhouse Gas' that is also a product of anaerobic digestion in wetlands?",
+    "options": ["N2O", "CH4", "CFC", "O3"],
+    "answerIndex": 1,
+    "explanation": "Methane ($CH_4$) is produced by methanogenic bacteria in anaerobic environments like wetlands, paddy fields, and the guts of cattle. It is a potent greenhouse gas."
+  },
+  {
+    "question": "The value of (√3 + i)³ is:",
+    "options": ["8", "8i", "-8i", "1"],
+    "answerIndex": 1,
+    "explanation": "Expanding using $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$: $(\\sqrt{3})^3 + 3(\\sqrt{3})^2(i) + 3(\\sqrt{3})(i^2) + i^3 = 3\\sqrt{3} + 9i - 3\\sqrt{3} - i = 8i$. Note: $i^2 = -1, i^3 = -i$."
+  },
+  {
+    "question": "In the expansion of (x + a)^n, the general term T_(r+1) is:",
+    "options": ["nCr * x^(n-r) * a^r", "nCr * x^r * a^(n-r)", "nPr * x^(n-r) * a^r", "nCr * x^n * a^r"],
+    "answerIndex": 0,
+    "explanation": "According to the Binomial Theorem, the $(r+1)^{\\text{th}}$ term is given by $T_{r+1} = \\binom{n}{r} x^{n-r} a^r$. Remember that the power of the second term '$a$' matches the '$r$' in $nCr$."
+  },
+  {
+    "question": "If sin θ + cos θ = √2, then θ is:",
+    "options": ["30°", "45°", "60°", "90°"],
+    "answerIndex": 1,
+    "explanation": "At $\\theta = 45^\\circ$, $\\sin 45 = 1/\\sqrt{2}$ and $\\cos 45 = 1/\\sqrt{2}$. Sum $= 2/\\sqrt{2} = \\sqrt{2}$. Squaring both sides $1 + \\sin 2\\theta = 2 \\implies \\sin 2\\theta = 1 \\implies 2\\theta = 90^\\circ \\implies \\theta = 45^\\circ$."
+  },
+  {
+    "question": "The period of the function f(x) = sin(2x) is:",
+    "options": ["π", "2π", "π/2", "4π"],
+    "answerIndex": 0,
+    "explanation": "The period of $\\sin(kx)$ is $2\\pi/|k|$. Here $k=2$, so the period is $2\\pi/2 = \\pi$. This means the graph repeats every $\\pi$ units."
+  },
+  {
+    "question": "The height of a tower is h. If the angle of elevation of the top of the tower from a point on the ground is 45°, the distance from the point to the foot of the tower is:",
+    "options": ["h", "h√2", "h/√2", "2h"],
+    "answerIndex": 0,
+    "explanation": "In a right triangle, $\\tan 45^\\circ = \\frac{\\text{Perpendicular}}{\\text{Base}} = \\frac{h}{\\text{distance}}$. Since $\\tan 45^\\circ = 1$, we get $1 = h/\\text{distance} \\implies \\text{distance} = h$. In B.Ed exams, remember that at $45^\\circ$, height equals distance."
+  },
+  {
+    "question": "If tan A = 1/2 and tan B = 1/3, then A + B is:",
+    "options": ["30°", "45°", "60°", "90°"],
+    "answerIndex": 1,
+    "explanation": "$\\tan(A+B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B} = \\frac{1/2 + 1/3}{1 - (1/2 \\cdot 1/3)} = \\frac{5/6}{1 - 1/6} = \\frac{5/6}{5/6} = 1$. Since $\\tan(A+B) = 1$, $A+B = 45^\\circ$."
+  },
+  {
+    "question": "The distance between the points (a cos θ, a sin θ) and (0, 0) is:",
+    "options": ["a", "a²", "1", "0"],
+    "answerIndex": 0,
+    "explanation": "Distance $d = \\sqrt{(a \\cos \\theta - 0)^2 + (a \\sin \\theta - 0)^2} = \\sqrt{a^2(\\cos^2 \\theta + \\sin^2 \\theta)}$. Since $\\cos^2 \\theta + \\sin^2 \\theta = 1$, $d = \\sqrt{a^2} = a$."
+  },
+  {
+    "question": "The centroid of a triangle with vertices (x1, y1), (x2, y2), and (x3, y3) is:",
+    "options": ["((x1+x2+x3)/2, (y1+y2+y3)/2)", "((x1+x2+x3)/3, (y1+y2+y3)/3)", "(x1x2x3, y1y2y3)", "(x1+x2, y1+y2)"],
+    "answerIndex": 1,
+    "explanation": "The centroid is the average of the coordinates of the vertices. For a triangle, we divide the sum of $x$ and $y$ coordinates by 3. Dividing by 2 is for the midpoint of a line."
+  },
+  {
+    "question": "The slope of the line perpendicular to 2x + 3y + 7 = 0 is:",
+    "options": ["-2/3", "2/3", "3/2", "-3/2"],
+    "answerIndex": 2,
+    "explanation": "Slope of the given line $m_1 = -A/B = -2/3$. Perpendicular lines satisfy $m_1 m_2 = -1$. So, $m_2 = -1/(-2/3) = 3/2$. Remember: Negative reciprocal."
+  },
+  {
+    "question": "Which organelle is semi-autonomous and has its own DNA?",
+    "options": ["Lysosome", "Ribosome", "Mitochondria", "Golgi Body"],
+    "answerIndex": 2,
+    "explanation": "Mitochondria (and Chloroplasts) have their own DNA and 70S ribosomes, allowing them to synthesize some of their own proteins. This is explained by the endosymbiotic theory. Ribosomes are for protein synthesis but lack DNA."
+  },
+  {
+    "question": "The crossing over of chromosomes takes place during which stage of meiosis?",
+    "options": ["Leptotene", "Zygotene", "Pachytene", "Diplotene"],
+    "answerIndex": 2,
+    "explanation": "Crossing over (exchange of genetic material between non-sister chromatids) occurs in Pachytene. Pairing (synapsis) happens in Zygotene. Diplotene is marked by the visibility of Chiasmata."
+  },
+  {
+    "question": "The process of programmed cell death is known as:",
+    "options": ["Necrosis", "Apoptosis", "Autolysis", "Mitosis"],
+    "answerIndex": 1,
+    "explanation": "Apoptosis is a healthy, programmed cell death used to remove unwanted cells. Necrosis is accidental or traumatic cell death caused by injury or infection, which usually causes inflammation."
+  },
+  {
+    "question": "Which of the following is a stop codon in the genetic code?",
+    "options": ["AUG", "UAA", "GUG", "UUU"],
+    "answerIndex": 1,
+    "explanation": "There are three stop codons: UAA (Ochre), UAG (Amber), and UGA (Opal). AUG is the start codon. UUU codes for Phenylalanine."
+  },
+  {
+    "question": "The primary enzyme responsible for DNA replication is:",
+    "options": ["RNA Polymerase", "DNA Polymerase", "Ligase", "Helicase"],
+    "answerIndex": 1,
+    "explanation": "DNA Polymerase adds nucleotides to the growing DNA strand. Helicase unzips the DNA, and Ligase glues the Okazaki fragments together. RNA Polymerase is used for transcription (making RNA from DNA)."
+  },
+  {
+    "question": "The pH of human blood is approximately:",
+    "options": ["6.4", "7.0", "7.4", "8.0"],
+    "answerIndex": 2,
+    "explanation": "Human blood is slightly basic, with a tightly regulated pH range between 7.35 and 7.45. Any significant deviation can be fatal."
+  }
+]
